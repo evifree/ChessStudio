@@ -1,0 +1,116 @@
+//
+// Prefix header for all source files of the 'ChessStudio' target in the 'ChessStudio' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <iAd/iAd.h>
+#endif
+
+#define separator @"§"
+#define doubleSeparator @"||"
+#define replaceSeparator [NSString stringWithFormat:@"]%@[", separator]
+
+
+#define whiteKingSymbol  @"\u2654"
+#define whiteQueenSymbol  @"\u2655"
+#define whiteRookSymbol  @"\u2656"
+#define whiteBishopSymbol  @"\u2657"
+#define whiteKnightSymbol  @"\u2658"
+#define whitePawnSymbol  @"\u2659"
+
+#define blackKingSymbol  @"\u265A"
+#define blackQueenSymbol  @"\u265B"
+#define blackRookSymbol  @"\u265C"
+#define blackBishopSymbol  @"\u265D"
+#define blackKnightSymbol  @"\u265E"
+#define blackPawnSymbol  @"\u265F"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define IS_PAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define IS_NOT_PAD_PRO (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) && (SCREEN_MAX_LENGTH < 1366.0)
+
+#define IS_PHONE UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone
+
+#define IS_PHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+//#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+#define lingua [[[NSBundle mainBundle] preferredLocalizations] objectAtIndex:0]
+
+#define IS_ITALIANO [[[[NSBundle mainBundle] preferredLocalizations] objectAtIndex:0] isEqualToString:@"it"]
+
+
+#define IsChessStudioLight ([[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"] isEqualToString:@"giordano.vicoli.ChessStudioLight"])
+
+#define IS_IOS_7 (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1)
+#define IS_IOS_6 (floor(NSFoundationVersionNumber) >= NSFoundationVersionNumber_iOS_6_0)
+#define IS_IOS_5 (floor(NSFoundationVersionNumber) < NSFoundationVersionNumber_iOS_6_0)
+#define IOS_6 (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1)
+
+#define IS_PORTRAIT ([[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationPortrait || [[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationPortraitUpsideDown)
+
+#define IS_LANDSCAPE ([[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationLandscapeLeft || [[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationLandscapeRight)
+
+#define IS_IPHONE_IN_PORTRAIT (IS_PHONE && IS_PORTRAIT)
+
+#define IS_PHONE_IN_LANDSCAPE (IS_PHONE && IS_LANDSCAPE)
+
+#define IS_PHONE_5_IN_PORTRAIT (IS_PHONE_5 && IS_PORTRAIT)
+
+#define IS_PHONE_5_IN_LANDSCAPE (IS_PHONE_5 && IS_LANDSCAPE)
+
+#define IS_PAD_IN_PORTRAIT (IS_PAD && IS_PORTRAIT)
+
+#define IS_PAD_IN_LANDSCAPE (IS_PAD && IS_LANDSCAPE)
+
+#define FEN_START_POSITION @"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+
+#define IPAD_PORTRAIT_BIG_BOARDVIEW_DIMSQUARE 96.0
+#define IPAD_PORTRAIT_MEDIUM_BOARDVIEW_DIMSQUARE 72.0
+#define IPAD_PORTRAIT_SMALL_BOARDVIEW_DIMSQUARE 48.0
+
+#define IPAD_LANDSCAPE_BIG_BOARDVIEW_DIMSQUARE 82.5
+#define IPAD_LANDSCAPE_MEDIUM_BOARDVIEW_DIMSQUARE 61.875
+#define IPAD_LANDSCAPE_SMALL_BOARDVIEW_DIMSQUARE 41.25
+
+
+#define IPHONE_PORTRAIT_BIG_BOARDVIEW_DIMSQUARE 40.0
+#define IPHONE_PORTRAIT_MEDIUM_BOARDVIEW_DIMSQUARE 30.0
+#define IPHONE_PORTRAIT_SMALL_BOARDVIEW_DIMSQUARE 20.0
+
+#define IPAD_PORTRAIT_BIG_BOARDVIEW CGRectMake(0.0, 0.0, 768.0, 768.0)
+
+#define IPAD_PORTRAIT_MEDIUM_BOARDVIEW CGRectMake(96.0, 0.0, 576.0, 576.0)
+
+#define IPAD_PORTRAIT_SMALL_BOARDVIEW CGRectMake(192, 0.0, 384.0, 384.0)
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+#define IS_PAD_PRO (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) && (SCREEN_MAX_LENGTH == 1366.0)
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
