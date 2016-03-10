@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DataUltimaModifica</key>
+		<date>2013-01-28T14:21:42Z</date>
+		<key>Data</key>
+		<date>2013-01-28T14:21:00Z</date>
+		<key>FileName</key>
+		<string>Fischer.pgn</string>
+		<key>PersonalName</key>
+		<string>Partite di Bobby Fischer</string>
+		<key>NumberOfGames</key>
+		<integer>827</integer>
+		<key>FilePath</key>
+		<string>/Users/giordanovicoli/Library/Application Support/iPhone Simulator/5.1/Applications/8A1839C6-42C4-4444-B72C-5D996676E763/ChessStudio.app/Fischer.pgn</string>
+	</dict>
+</array>
+</plist>

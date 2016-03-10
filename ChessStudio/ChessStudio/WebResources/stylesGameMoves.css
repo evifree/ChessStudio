@@ -1,0 +1,152 @@
+span.chess {font-family: SemFig}
+
+a { color:#191970; background-color:transparent; text-decoration:none; white-space:nowrap;}
+
+a:active { color:transparent; background-color:transparent;}
+
+p.head {font-family:Verdana,sans-serif; font-size: x-large; font-weight: bold;margin-bottom: 0%; word-wrap:break-word;}
+
+p.header {font-family:Verdana,sans-serif; font-size: medium; font-weight: bold;}
+
+p.dia12 {
+	font-family: dialast;
+	font-size: 14pt;
+	line-height: 0%; margin-top: 0%;
+	position:relative;
+    left:-10px;
+}
+
+p.diagram {
+	font-family: dialast;
+	font-size: 14pt;
+	line-height: 0%; margin-top: 0%;
+	position:relative;
+    left:-10px;
+}
+
+p.diagram >a:hover {color:#000099;background-color:transparent}
+
+	#img {border:1px;}
+			p.bold {font-family: SemFig;font-weight: bold;line-height:130%;margin-bottom: 1.5%;margin-top: 0%;}
+				p.body-text {font-family: SemFig;margin-bottom: 1.5%;margin-top: 0%;line-height:130%;}
+			p.x- {font-family: SemFig;margin-bottom: 1.5%;margin-top: 0%;line-height:130%;}
+			p.basic-paragraph {font-family: SemFig;margin-bottom: 1.5%;margin-top: 0%;line-height:130%;}
+			p.body-georg {font-family: Figgeorg, serif;margin-bottom: 1.5%;margin-top: 0%;line-height:130%;}
+			.ref {color: #F00; font-size:small; font-weight:bold;}
+			.figorg {font-family: Figgeorg;}
+			span.normal {font-weight: normal;}
+			.italic {font-family: Figgeorg; font-style: italic;}
+			.bold {font-weight: bold;}
+			.fbold {font-family: Figgeorg; font-weight: bold;}
+			.not0 {font-weight: bold;}
+			.commentator {font-weight: bold; font-family: Figgeorg;}
+			.table-ref {color: #F00; font-size:small;}
+			.rightimg{float:right;border-style:solid;border-width:1px;margin-left:10px;margin-bottom:5px;}
+			.leftimg{float:left;border-style:solid;border-width:1px;margin-right:10px;margin-bottom:5px;}
+			.fullimg{border-style:solid;border-width:1px; width:100%;}
+			p.photo-title {font-family: Figgeorg, serif;margin-bottom: 1%;margin-top: 0%;line-height:100%; font-style: italic; font-size:small;}
+			p.photo-titleright {font-family: Figgeorg, serif; text-align:right; margin-bottom: 1%;margin-top: 0%;line-height:100%; font-style: italic; font-size:small;}
+
+p.game-header {
+	font-family: verdana,sans-serif; clear:both;
+	font-weight: bold;	margin-bottom: 0%; margin-top: 0%;  font-size: medium; 
+}
+
+.border {font-family: Figgeorg, serif;
+	margin-bottom: 1.5%; margin-top: 4%; border: 3px;
+	background-color:#F2F2F2;
+	border-color:#E6E6E6;
+	border-style:ridge;
+	border-radius:3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top:3px; padding-bottom:3px;
+}
+
+p.swipe{font-family: Times New Roman, Times, serif; font-weight:bold;border: 1px solid #CCCCCC;border-radius:5px;box-shadow:0 0 5px #AAAAAA;border-color:#E6E6E6;padding:5px 0px;width:300px;text-align:center;}
+
+.game-text {font-family: SemFig;font-weight: bold;line-height:130%; font-size: 12pt;}
+
+.move-no-fig {    font-family: "figorg", figorg, serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0%; margin-top: 0%;
+    line-height: 130%;
+}
+
+.game-var {font-family: SemFig; font-weight:normal; line-height:100%; font-size: 12pt;}
+
+.move-annotation {font-family: ISChess;font-weight: bold;line-height:100%;}
+
+.eco {font-family: ISChess;font-weight: bold;line-height:130%;}
+
+.eco2 {font-family: Semfig Normal;font-weight: bold;line-height:130%;}
+
+.game-border {font-family:Verdana, Geneva, sans-serif;
+	margin-bottom: 1.5%; margin-top: 4%; border: 3px;
+	background-color:#F2F2F2;
+	border-color:#E6E6E6;
+	border-style:ridge;
+	border-radius:3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top:3px; padding-bottom:3px;
+}
+
+p.frame {font-family:Figgeorg;
+	font-style: italic;
+	margin-bottom: 1.5%; margin-top: 4%; border: 3px;
+	background-color:#F2F2F2;
+	border-color:#E6E6E6;
+	border-style:ridge;
+	border-radius:3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top:3px; padding-bottom:3px;
+} 
+
+p.tbody {
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 0%; margin-top: 0%;
+	line-height: 120%; padding-left: 30px;
+}
+
+p.thead2 {
+	font-family: ArialMT, Tahoma, sans-serif;
+	font-style: italic;
+	margin-bottom: 1.5%;
+	margin-top: 0%;
+	line-height: 120%;
+}
+
+p.thead {
+	font-family:Verdana,sans-serif; font-weight: bold;
+	margin-bottom: 0%;
+	margin-top: 2%;
+	line-height: 120%;
+}
+
+.commento {
+	font-family: "Times New Roman", Times, serif;
+    font-size: 16pt;
+    font-weight: normal;
+    color: blue;
+	margin-bottom: 0%; margin-top: 0%;
+	line-height: 120%;
+}
+
+.move-commento {
+    font-family: "SemFig", SemFig, serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color: blue;
+    margin-bottom: 0%; margin-top: 0%;
+    line-height: 120%;
+}
+
+.selected {
+    border-radius: 4px;
+    background: transparent;
+    color: red;
+}

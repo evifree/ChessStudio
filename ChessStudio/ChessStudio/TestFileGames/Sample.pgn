@@ -1,0 +1,296 @@
+[Event "Hersonissos 101/1"]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "?"]
+[White "Kozul, Z."]
+[Black "Tiviakov, S."]
+[Result "0-1"]
+[ECO "A05"]
+[WhiteElo "2609"]
+[BlackElo "2643"]
+[Annotator "Tiviakov,S"]
+[PlyCount "82"]
+[EventDate "2007.??.??"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. d3 d5 6. Nbd2 Nbd7 7. Re1 Bc5 8. e3
+(8. b3 $4 Bxf2+ 9. Kxf2 Ng4+ 10. Kg1 Ne3 $19) (8. c3) (8. c4) 8... O-O 9. a3
+$146 (9. b3 Re8 10. Bb2 e5 11. Nxe5 (11. e4 $6 dxe4 12. dxe4 Ng4 13. Re2 Ba6
+14. c4 Bb7 $15) (11. d4 $11) 11... Nxe5 12. Bxe5 (12. d4 $11) 12... Rxe5 13. d4
+Bxd4 14. exd4 Rxe1+ 15. Qxe1 $11) 9... a5 10. b3 Re8 11. Bb2 e5 12. e4 (12. d4
+Bd6 $11 (12... exd4 13. Nxd4 $11)) (12. Nxe5 Nxe5 13. d4 (13. Bxe5 Rxe5 14. d4
+Bxd4 15. exd4 Rxe1+ 16. Qxe1 $11) 13... Bd6 14. dxe5 Bxe5 15. Bxe5 Rxe5 $11)
+12... dxe4 13. dxe4 (13. Nxe4 Nxe4 14. dxe4 $11) 13... Ng4 14. Re2 (14. Rf1 Ba6
+15. c4 $15) 14... Ba6 15. c4 Qe7 16. h3 Ngf6 17. Qc2 Bb7 (17... c6 $15) 18. Nb1
+(18. Nh4 g6 $15) 18... c6 19. Bc3 (19. Nc3 $142 $15) 19... b5 20. Bb2 (20. cxb5
+cxb5 $15) 20... bxc4 (20... b4 21. a4 $11) 21. bxc4 Bd6 (21... Ba6 22. Nbd2
+Rab8 23. Bc3 Bb6 $15) 22. Nh4 g6 23. Nd2 Nc5 24. Nhf3 Nfd7 25. Nf1 Ne6 (25...
+a4 26. Rd1 $11) 26. Ne3 c5 27. Nd5 (27. Rb1 Reb8 28. Nd5 Qd8 $15) 27... Qd8 28.
+Qa4 (28. Rb1 Bc6 $15) 28... Bxd5 29. cxd5 Nd4 30. Ree1 (30. Nxd4 cxd4 $15)
+30... Nb6 31. Qd1 Qd7 32. Rb1 Nc4 33. Bc1 (33. Bf1 $2 Nxf3+ 34. Qxf3 Nd2 $19) (
+33. Nd2 Nxd2 34. Qxd2 Reb8 $15) 33... Rab8 34. Rxb8 Rxb8 35. Bf1 Nb2 36. Bxb2
+Rxb2 37. Kg2 (37. Re3 $15) 37... Qd8 38. Nd2 (38. Re3 Qf6 39. Rc3 $15) 38...
+Qf6 39. Re3 c4 (39... h5 $5) 40. Be2 (40. Bxc4 Bc5 $44) 40... Bc5 41. Nxc4 (41.
+Bxc4 $44) 41... Rxe2 0-1
+
+[Event "Hersonissos 101/2"]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "?"]
+[White "Roiz, M."]
+[Black "Balogh, Cs"]
+[Result "1-0"]
+[ECO "A07"]
+[WhiteElo "2644"]
+[BlackElo "2561"]
+[Annotator "Roiz,M"]
+[PlyCount "47"]
+[EventDate "2007.??.??"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 e6 4. O-O Nbd7 $6 5. d3 (5. d4) 5... b6 6. c4 $1 Bb7
+7. cxd5 exd5 (7... Nxd5 $142 8. e4 N5f6 9. Nc3 c5 $14) 8. Nc3 (8. e4 $5 dxe4 9.
+dxe4 Nxe4 10. Ng5 Ndc5 11. Qc2 (11. Qe2 $6 Qe7 12. Re1 O-O-O $13) 11... f5 12.
+Rd1 Qf6 13. Nc3 $36) 8... Be7 (8... c5 $5 9. d4 (9. e4 d4 10. Ne2 $14) 9... Be7
+$14) 9. e4 $1 $146 (9. Nh4 O-O 10. Nf5 $14) 9... dxe4 $2 (9... O-O 10. e5 Ne8
+11. Re1 c6 $14) 10. dxe4 Nc5 (10... Nxe4 11. Nxe4 Bxe4 12. Qa4 $1 Bd5 (12... f5
+13. Rd1 Bf6 14. Nd4 $16) 13. Rd1 c6 14. Ne5 b5 15. Qf4 Nxe5 16. Qxe5 f6 (16...
+O-O 17. Bxd5 cxd5 18. Rxd5 Bf6 19. Rxd8 Bxe5 20. Rd5 $16) 17. Qe2 Qd7 18. Bf4
+O-O 19. Rac1 $36) 11. Nd4 (11. e5 Nfe4 12. Nxe4 Bxe4 $14) 11... O-O (11...
+Nfxe4 12. Nxe4 Bxe4 (12... Nxe4 13. Re1 $18) 13. Bxe4 Nxe4 14. Re1 Kf8 (14...
+Nf6 15. Qa4+ Qd7 16. Nc6 $18) (14... c5 15. Qa4+ Qd7 16. Qxd7+ Kxd7 17. Nf5 $18
+) 15. Rxe4 c5 16. Rxe7 Qxe7 17. Nf5 Qf6 18. Qf3 Rd8 19. Bf4 $18) 12. e5 (12.
+Nf5 $5) 12... Bxg2 (12... Nd5 13. Bxd5 $1 (13. Nxd5 Bxd5 14. Nc6 Bxc6 15. Bxc6
+Qxd1 16. Rxd1 Rad8 $14) 13... Bxd5 14. Qg4 Be6 15. Nxe6 Nxe6 (15... fxe6 16.
+Rd1 Qc8 17. b4 Na6 18. Bh6 Rf7 19. a3 $16) 16. Rd1 Qe8 17. Be3 $16) 13. Kxg2
+Nd5 14. Nc6 Nxc3 15. bxc3 Qe8 16. Qd5 (16. Qf3 $5 f6 17. Qd5+ Kh8 18. e6 $16)
+16... Kh8 $2 (16... Ne6 17. c4 (17. Be3 Bc5 18. Rae1 Bxe3 19. Rxe3 Nc5 20. Rd1
+Qe6 21. c4 Rae8 $14) (17. Bd2 $5 Bc5 18. Rad1 $16) 17... Bc5 18. Bb2 $16) 17.
+Ba3 $1 f5 18. f4 Rg8 19. Rad1 Bf8 (19... Qf8 20. e6 Bd6 21. Bxc5 bxc5 22. Ne5
+Bxe5 23. Qxe5 $18) 20. Nd8 $1 $18 Rxd8 21. Qxd8 Qa4 22. Bxc5 Bxc5 (22... Qe4+
+23. Kh3 Bxc5 24. Qd3 $18) 23. Qd2 Qe4+ 24. Rf3 1-0
+
+[Event "Pamplona 101/(2)"]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "?"]
+[White "Movsesian, S."]
+[Black "Beliavsky, A."]
+[Result "1/2-1/2"]
+[ECO "A07"]
+[WhiteElo "2670"]
+[BlackElo "2646"]
+[PlyCount "41"]
+[EventDate "2007.??.??"]
+
+1. g3 d5 2. Nf3 c6 3. Bg2 Nf6 4. O-O Bg4 5. d3 Nbd7 6. h3 Bxf3 7. Bxf3 g6 (7...
+e5) 8. Bg2 Bg7 9. e4 O-O 10. Qe2 e5 11. Nd2 Nc5 12. Nb3 $146 (12. b3) 12... Ne6
+13. c3 Re8 14. a4 h5 15. h4 Qb6 16. Qc2 Rad8 17. a5 Qc7 18. Bh3 c5 19. Bxe6
+Rxe6 20. c4 d4 21. Nd2 1/2-1/2
+
+[Event "Russia (ch) 101/3"]
+[Site "?"]
+[Date "2007.??.??"]
+[Round "?"]
+[White "Tomashevsky, E."]
+[Black "Morozevich, A."]
+[Result "0-1"]
+[ECO "A09"]
+[WhiteElo "2646"]
+[BlackElo "2755"]
+[Annotator "Morozevich,A"]
+[PlyCount "94"]
+[EventDate "2007.??.??"]
+
+1. Nf3 d5 2. c4 d4 3. g3 c5 4. e3 Nc6 5. exd4 cxd4 6. Bg2 e5 7. O-O f6 (7...
+Bd6) 8. d3 Nge7 9. a3 a5 10. Nbd2 Ng6 11. h4 Be7 12. Re1 (12. Nh2 Nf8) (12. h5
+Nf8 13. Nh4 g5 14. hxg6 hxg6 15. Bd5 (15. Qf3 f5) 15... g5 $13) 12... O-O 13.
+h5 $146 (13. Qc2) 13... Nh8 14. Nh4 g5 (14... Be6 15. Bd5 (15. f4 Qd7 16. f5
+Bxf5 17. Nxf5 Qxf5 18. Rf1 Qd7 $44) 15... Bxd5 16. cxd5 Qxd5 17. Nf5 Nf7 18.
+Qg4 Ng5 19. Ne4 Bd8 20. f4 Ne6 21. Bd2 $36) 15. hxg6 (15. Bd5+ Kg7 16. h6+ (16.
+Ndf3 Nf7) (16. Ne4 Nf7) (16. Ng2 Nf7 17. g4 Nh6 18. f3 f5) 16... Kxh6 17. Kg2
+gxh4 18. Nf3+ (18. Ne4+ Kg7 19. Qh5 Nf7 20. Qxh4 f5 21. Qh5 fxe4 22. Rh1 Bf5
+23. Qxf5 Ng5 24. Qg4 e3) 18... Kg7 19. Nxh4 Nf7 (19... Ng6 20. Rh1 Nxh4+ 21.
+Rxh4) 20. Rh1 Qe8 21. Be4 (21. Qf3 Qd7) 21... Rh8 22. Qh5 (22. Nf5+ Bxf5 23.
+Bxf5 h6 24. Qg4+ Ng5 25. Rh5 e4 26. dxe4 Ne5 27. Qd1) 22... Ng5 23. Nf5+ Bxf5
+24. Qh6+ Kf7 25. Bxf5 Bf8 26. Qh5+ Kg8 $17) 15... hxg6 16. Be4 $6 (16. Bd5+ Kg7
+17. Kg2 (17. Ndf3 g5 18. Nh2 Qe8) 17... Nf7 $13) (16. f4 exf4 $8 (16... f5 17.
+Bd5+ Kg7 18. Ndf3 exf4 19. Bxf4 Bf6 20. Qd2 Nf7 21. Bxf7 Kxf7 22. Ng5+ Kg7 23.
+Re6) (16... Kg7 17. f5 $16) 17. Qe2 (17. Bd5+ Kg7 18. Ndf3 fxg3 19. Qd2 g5 20.
+Re6 f5 21. Rxe7+ Qxe7 22. Qxg5+ Qxg5 23. Bxg5 f4 24. Re1 Ng6) (17. gxf4 f5 18.
+Bd5+ Kg7 19. Nhf3 Bf6 20. Ne5 Bxe5 21. fxe5 Qg5+) 17... Bd6 $1 (17... Rf7 18.
+Bd5 g5 19. gxf4 gxh4 20. Qh5) (17... g5 18. Bd5+ Kg7 19. Bxc6) (17... fxg3 18.
+Bxc6 bxc6 19. Qxe7) 18. Ne4 (18. Bd5+ Kg7 19. Ne4 fxg3 20. Nxd6 Qxd6 21. Qf3
+Ne5 22. Qxg3 Nxc4 23. Bf4 Qxd5 24. dxc4) (18. c5 Bc7 19. Nc4 fxg3 $13) 18...
+fxg3 19. Nxd6 (19. Nxg6 Nxg6 20. Qh5 Nce5 21. Nxd6 Qxd6 22. Bd5+ Be6 23. Bxe6+
+Qxe6 24. Qxg6+ Nxg6 25. Rxe6 Rae8 $19) 19... Qxd6 20. Qf3 (20. Bh6 Ne5 21. Bxf8
+Kxf8) 20... Kg7 (20... g5 21. Qh5 Ne5 22. Bxg5) 21. Bf4 Qd7 22. Re4 (22. c5 Qg4
+) (22. Qxg3 Qg4) 22... g5 23. Qxg3 Nf7 24. Rf1 $13 Qg4 25. Qxg4 Bxg4 26. Bxg5
+Nfe5 27. Bf4 Rad8 $14) 16... f5 17. Bxc6 (17. Bd5+ Kg7 18. Nhf3 (18. Ndf3 Nf7)
+18... Bf6 19. Bxc6 bxc6 20. Nxe5 Bxe5 21. Rxe5 Nf7 22. Re1 c5 $40) 17... bxc6
+18. Nhf3 (18. Ndf3 f4) 18... Nf7 (18... e4 19. dxe4 f4 20. gxf4 Rxf4 21. Nf1
+Rg4+ 22. Ng3 c5 23. Kg2 Nf7 $15) 19. Nxe5 Nxe5 20. Rxe5 Bd6 21. Re1 (21. Nf3
+Bxe5 (21... f4 22. Bxf4 Bxe5 23. Nxe5 Qf6 24. Ng4 Bxg4 25. Qxg4 Qf5 26. Qxf5
+Rxf5 $15) 22. Nxe5 Qf6 (22... c5 23. Nxg6 Rf7 24. Bf4 Bb7 25. Nh4) (22... Qd6
+23. Bf4 c5 24. Qf3 Ra6 25. Re1 Re8 $15) 23. f4 c5 24. Qf3 Ra7 25. Qd5+ Qe6 26.
+Bd2 a4 27. Qxc5 Rh7 28. Qxd4 Bb7 29. Re1) 21... c5 (21... f4 $6 22. Ne4 f3 $2
+23. Bh6 Rf7 24. Bg5 $16) 22. Nf3 Kg7 $4 (22... Bb7 23. Re6 Kg7 (23... Kf7 24.
+Ng5+ Kg7 25. Bf4 Bxf4 26. gxf4 $16) 24. Nh4 Rf6 25. Bg5 Rxe6 26. Bxd8 Rxd8 27.
+Qd2 f4 28. Re1 Rf6 29. Qxa5 fxg3 (29... Rh8 30. Qa7 Rf7 31. Qb6 fxg3 32. fxg3
+$18) 30. Qxd8 gxf2+ 31. Kf1 fxe1=Q+ 32. Kxe1 Bc6 $16) (22... f4 $1 23. Qe2 $1 (
+23. Ne5 fxg3 24. fxg3 Ra7 $3 25. Bh6 Rf5 $1 26. Nc6 Qf6 27. Nxa7 Bxg3 28. Qe2
+Bf2+ 29. Qxf2 Rxf2 30. Re8+ Kh7 31. Rf8 Rg2+ 32. Kxg2 Bb7+ $19) (23. Bxf4 Bxf4
+24. gxf4 Rxf4 25. Re4 Qf6 26. Rxf4 Qxf4 $17) 23... fxg3 24. fxg3 Bxg3 25. Bh6
+Bf4 $1 26. Bxf8 (26. Qe4 Bxh6 27. Qxa8 Qd7 28. Qe4 Qh3 $19) 26... Be3+ 27. Kh1
+(27. Kg2 Qxf8 28. Nd2 Qf5) 27... Qxf8 28. Rg1 Ra6 $17) 23. Bg5 Qc7 24. Nh4 (24.
+b4 $5 Bb7 (24... f4 25. bxc5 Qxc5 26. gxf4 Bxf4 27. Bxf4 Rxf4 28. Qe2) (24...
+axb4 25. axb4 Rxa1 26. Qxa1 Bb7 27. bxc5 Bxf3 28. Qxd4+) 25. bxc5 Bxc5 (25...
+Qxc5 26. Rb1 Bc6 27. Re6 Rae8 28. Nxd4 f4 29. Qg4 Qxd4 30. Bh6+ Kh8 31. Bxf8
+Rxe6 32. Qh3+ Kg8 33. Qxe6+ Kxf8 34. Qc8+ Be8 35. Re1 Be7 36. Re4) 26. Rb1 (26.
+Re6 Qc8) 26... Rae8 $44 (26... Qc6 27. Rxb7+ Qxb7 28. Re5)) 24... Rf7 25. Qe2
+Bd7 $44 26. f4 (26. Ng2 $5) 26... Rh8 27. Kf2 Qb7 (27... a4 28. Rh1 Rff8 29.
+Rae1 Re8 30. Qd2) (27... Rxh4 28. gxh4 (28. Bxh4 Bxf4 29. gxf4 Qxf4+ 30. Kg1
+Qxh4 31. Qh2 Qxh2+ 32. Kxh2 Kf6 $15) 28... Bxf4 29. Qf3 Bxg5 30. hxg5 Qh2+ 31.
+Qg2 Qf4+ 32. Kg1 Qh4 $13) 28. Rab1 Rh5 $2 (28... a4 $1 29. b4 axb3 30. Qd1 Qc8
+31. Qxb3 Bc6 $13) 29. Nf3 $2 (29. b4 axb4 (29... Rxg5 $2 30. bxc5 $18) (29...
+cxb4 30. c5 Bc7 31. axb4 Rxg5 32. bxa5 Qd5 33. fxg5 f4 34. Rb6 fxg3+ 35. Kg1
+$16) 30. axb4 cxb4 31. c5 Bc7 32. Qb2 $1 (32. Qa2 Rxg5 33. fxg5 Qb8 $13) 32...
+Qd5 33. Qb3 Qxc5 (33... Bc6 34. Qxd5 Bxd5 35. Rxb4 Ba5 36. Rxd4 Bxe1+ 37. Kxe1)
+34. Rec1 Qd6 35. Qxb4 Qxb4 36. Rxb4 $16) 29... Bc6 30. Rg1 (30. Bh4 Bxf4 31.
+gxf4 Bxf3 32. Qxf3 Rxh4 33. Qxb7 Rxb7 34. Kg3 Rg4+ 35. Kf3 Kf6 (35... Rb3 36.
+Rbd1 Rxb2 37. Re7+ $11) 36. b4 axb4 37. axb4 cxb4 38. Ra1 b3 39. Ra6+ Kf7 40.
+c5 $11) 30... Rf8 31. Nh4 $2 (31. Rbe1 $8 Re8 32. Qxe8 Bxe8 33. Rxe8 Qxb2+ 34.
+Re2 Qb3 35. Rge1 $1 Qxd3 36. Rb2 $1 $132 (36. Be7 Bxf4) (36. Re6 Bf8 37. Rxg6+
+Kh7 38. Rf6 Bg7 39. Rf7)) 31... Rxg5 32. fxg5 f4 $19 33. g4 Re8 34. Qd2 Re3
+$138 (34... Rh8) 35. b4 Qe7 36. bxc5 Qxg5 37. Rh1 (37. Nf5+ gxf5 38. gxf5 Rg3
+$19) 37... Bxh1 $2 (37... f3 $19) (37... Bxc5 38. Qxa5 (38. Rh2 Qxg4 39. Rg1
+Rg3) 38... Qxg4 39. Qc7+ Be7 $19) 38. Rxh1 Bxc5 39. Qd1 Qe7 (39... f3 40. Nxf3
+Qxg4) 40. a4 (40. Ng2) (40. Nf3 Qb7) 40... Rg3 41. Ng2 Bb4 42. Rh2 Qe5 43. c5 (
+43. Qh1 f3 44. Rh7+ (44. Nf4 Rxg4 45. Ne6+ Qxe6 46. Rh7+ Kf8) 44... Kg8 45. Nf4
+Rxg4) 43... f3 $1 (43... g5 44. Qb3 Rxg4 45. Qd1) 44. Nh4 Qf4 $1 45. g5 (45. c6
+Bd6 $1) 45... Rxg5 46. Nxf3 Qe3+ 47. Kf1 Rxc5 0-1
+
+[Event "Q 4/l Jugoslavija 5e/1"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Rajkovic, Du"]
+[Black "Nikolic, Stani"]
+[Result "0-1"]
+[Annotator "Maric,R"]
+[SetUp "1"]
+[FEN "2q3k1/5pp1/7p/3p4/8/2p1P1P1/P1Q2PP1/6K1 b - - 0 1"]
+[PlyCount "21"]
+[EventDate "1968.??.??"]
+[SourceDate "2007.08.01"]
+
+1... Qc4 $1 2. a3 (2. f3 2... Qb4 $1 3. Qf5 3... Qc5 $1 $19) 2... Qc5 3. Qc1 (
+3. a4 3... Qb4 $19) 3... c2 4. Kf1 4... Qc3 $1 5. a4 (5. Ke2 5... Kf8 $1 6. a4
+Ke7 7. a5 7... Kd6 $19) 5... d4 $1 6. exd4 Qc4+ 7. Ke1 Qxa4 8. d5 (8. Qb2 Qa5+
+9. Ke2 9... Qa2 $3 10. Qc1 (10. Qxa2 10... c1=N+ $1 $19) 10... Qc4+ 11. Ke3
+Qc3+ 12. Ke2 12... Kf8 $19) 8... Qe4+ $19 9. Kd2 (9. Kf1 Qd3+ 10. Ke1 10... Kf8
+$19) 9... Qxd5+ 10. Kxc2 Qc5+ 11. Kd1 Qxf2 0-1
+
+[Event "Q 8/f Monte Carlo II 5e/2"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Maric, R."]
+[Black "Todorcevic, M."]
+[Result "1-0"]
+[Annotator "Maric,R"]
+[SetUp "1"]
+[FEN "8/4qpk1/p1p5/4pP2/1PP1Bnp1/4Q3/6PP/6K1 w - - 0 1"]
+[PlyCount "31"]
+[EventDate "1968.??.??"]
+[SourceDate "2007.08.01"]
+
+1. Bxc6 Qd6 (1... Qxb4 2. Qxe5+ Kf8 3. Qxf4 Qb6+ 4. Kf1 Qxc6 5. Qxg4 a5 6. Qd4
+$18) 2. c5 $1 2... Qd1+ 3. Kf2 Qc2+ 4. Kg3 Qxf5 5. Bd7 $3 $18 (5. Be4 Qe6 6. c6
+6... Nh5+ $1 7. Kh4 Nf6 8. Qg5+ Kf8 9. c7 Nxe4 10. Qd8+ Kg7 11. c8=Q 11... Qh6+
+$11) 5... Qf6 (5... Nh5+ 6. Kh4 Qxd7 7. Qxe5+ $1) (5... Qg5 6. Bxg4 $18) 6.
+Bxg4 Qh4+ 7. Kxh4 Nxg2+ 8. Kg3 Nxe3 9. c6 Nd5 10. Bf3 Nc7 11. Be2 Kf6 12. Bxa6
+$1 12... Ke7 (12... Nxa6 13. b5 Nc7 14. b6 $18) 13. Bc4 Kd6 14. b5 Kc5 15. h4
+Kb6 16. h5 1-0
+
+[Event "R 5/j USSR 5e/3"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Shamkovich, L."]
+[Black "Liberzon, V."]
+[Result "1-0"]
+[Annotator "Yudovich sr,M"]
+[SetUp "1"]
+[FEN "8/5k2/R7/P6p/3r4/8/5PK1/8 b - - 0 1"]
+[PlyCount "50"]
+[EventDate "1968.??.??"]
+[SourceDate "2007.08.01"]
+
+1... Rg4+ 2. Kf3 Ra4 3. Ra8 Kg6 4. a6 Kg5 5. Ke3 (5. a7 $1 5... Kh4 6. Kg2 Ra2
+7. Kg1 Ra1+ 8. Kh2 $1 8... Ra2 9. Kg2 Ra1 10. f4 $16) 5... Ra3+ 6. Ke4 Ra4+ 7.
+Kd3 Kh4 8. Ke3 Ra3+ 9. Ke4 Ra4+ 10. Kf5 Ra5+ 11. Ke6 Kg4 (11... Ra4 $1) 12. a7
+Ra6+ 13. Ke5 Ra5+ 14. Ke4 Ra4+ 15. Ke3 Ra3+ 16. Ke2 Ra2+ 17. Kf1 Kh4 18. f4 $1
+18... Ra5 19. Ke2 Ra2+ 20. Kd3 Ra3+ 21. Kc4 Kg4 22. Rg8+ Kxf4 23. a8=Q Rxa8 24.
+Rxa8 h4 25. Kd3 h3 26. Ke2 1-0
+
+[Event "R 6/d DDR 5e/4"]
+[Site "?"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Baumbach, F."]
+[Black "Packroff, H."]
+[Result "1-0"]
+[Annotator "Maric,R"]
+[SetUp "1"]
+[FEN "8/8/2P3R1/3p3p/3r1P2/5kP1/2K5/8 w - - 0 1"]
+[PlyCount "25"]
+[EventDate "1968.??.??"]
+[SourceDate "2007.08.01"]
+
+1. f5 Ke4 (1... h4 2. gxh4 Rxh4 3. f6 Rc4+ 4. Kd3 Rxc6 5. f7 Rxg6 6. f8=Q+ $18)
+2. g4 $1 (2. f6 Rc4+ 3. Kd2 Rxc6 4. f7 Rxg6 5. f8=Q Rxg3 6. Qe7+ $16) 2... Rc4+
+3. Kd2 Kf4 (3... h4 4. Re6+ $1 4... Kf4 5. f6 $18) 4. f6 Rxc6 5. g5 $1 $18 5...
+Rc8 (5... h4 6. Rg8) 6. Rg7 Rf8 7. f7 Kf5 8. g6 Kf6 9. Rg8 Ke7 10. Kd3 $1 (10.
+Rh8 Rxh8 11. g7 11... Rf8 $1 12. g8=Q Rxf7 13. Qg5+ $16) 10... h4 11. Kd4 h3
+12. Ke5 h2 13. Rxf8 (13. Rxf8 h1=Q (13... Kxf8 14. Kf6) 14. Re8+ Kd7 15. f8=Q
+Qe4+ 16. Kf6 Qxe8 17. Qxe8+ Kxe8 18. g7) 1-0
+
+[Event "FIDE GP Paris"]
+[Site "Elancourt FRA"]
+[Date "2013.09.22"]
+[Round "1.5"]
+[White "Nakamura, Hikaru"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteElo "2772"]
+[BlackElo "2703"]
+[ECO "D31"]
+[Variant ""]
+[PlyCount "59"]
+
+1. d2-d4 d7-d5 2. c2-c4 e7-e6 3. Nb1-c3 c7-c6 4. e2-e4 d5xe4 5. Nc3xe4 Bf8-b4 6. Bc1-d2 Qd8xd4
+7. Bd2xb4 Qd4xe4 8. Bf1-e2 Nb8-a6 9. Bb4-c3 f7-f6 10. Qd1-d6 Ng8-h6 11. Bc3xf6 g7xf6
+12. O-O-O Qe4-g6 13. Qd6-d8 Ke8-f7 14. Qd8xh8 Na6-b4 15. Be2-h5 Nb4xa2 16. Kc1-d2 Qg6xh5
+17. Qh8xh7 Kf7-f8 18. Qh7-h8 Kf8-f7 19. Qh8-h7 Kf7-f8 20. Ng1-f3 e6-e5 21. Kd2-e1 Bc8-g4
+22. h2-h3 e5-e4 23. Nf3-d4 Ra8-e8 24. Qh7-h8 Kf8-f7 25. Qh8-h7 Kf7-f8 26. Rd1-a1 e4-e3
+27. Qh7-h8 Kf8-f7 28. Qh8-h7 Kf7-f8 29. Qh7-h8 Kf8-f7 30. Qh8-h7 $0 1/2-1/2
+
+[Event "FIDE GP Paris"]
+[Site "Elancourt FRA"]
+[Date "2013.09.28"]
+[Round "6.4"]
+[White "Grischuk, Alexander"]
+[Black "Nakamura, Hikaru"]
+[Result "1/2-1/2"]
+[WhiteElo "2785"]
+[BlackElo "2772"]
+[ECO "D37"]
+[Variant ""]
+[PlyCount "83"]
+
+1. d2-d4 d7-d5 2. Ng1-f3 Ng8-f6 3. c2-c4 e7-e6 4. Nb1-c3 Bf8-e7 5. g2-g3 O-O 6. Bf1-g2 d5xc4
+7. Nf3-e5 c7-c5 8. d4xc5 Qd8xd1 9. Nc3xd1 Be7xc5 10. Nd1-e3 Nb8-d7 11. Ne5xc4 Ra8-b8 12. Nc4-a5 Nd7-e5
+13. Ne3-c4 Bc5-b4 14. Bc1-d2 Bb4xd2 15. Ke1xd2 Rf8-d8 16. Kd2-c3 Ne5xc4 17. Kc3xc4 b7-b6 18. Na5-c6 Bc8-b7
+19. Kc4-b3 Bb7xc6 20. Bg2xc6 Nf6-g4 21. f2-f3 Ng4-e3 22. Bc6-e4 Ne3-f5 23. Be4xf5 e6xf5 24. Ra1-d1 Rd8-e8
+25. Rh1-e1 g7-g6 26. e2-e4 f5xe4 27. Re1xe4 Re8xe4 28. f3xe4 Rb8-b7 29. Rd1-d4 Kg8-f8 30. a2-a4 Kf8-e7
+31. Kb3-c3 h7-h5 32. b2-b4 Ke7-e6 33. Kc3-d3 a7-a5 34. Kd3-e3 f7-f6 35. h2-h4 Rb7-a7 36. Ke3-f4 Ra7-a8
+37. Rd4-c4 a5xb4 38. Rc4xb4 Ra8-a6 39. Rb4-d4 Ra6-a5 40. Rd4-b4 Ra5-a6 41. Rb4-d4 Ra6-a5 42. Rd4-b4 1/2-1/2
