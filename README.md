@@ -4,6 +4,10 @@ Chess Studio is an open-source chess playing app for iOS. It is an application d
 
 The app is powered by the utlra strong Stockfish chess engine. Please fork this project, contribution is welcome.
 
+##Authors
+
+Giordano Vicoli and Ted Wong
+
 ##License
 
 GPL
