@@ -747,6 +747,48 @@
 		0FC3EDC51B05F7E5000283F0 /* MainCloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3EDC31B05F7E5000283F0 /* MainCloudTableViewController.m */; };
 		0FC3EDC91B06106B000283F0 /* ChessStudioLight.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0FC3EDC81B06106B000283F0 /* ChessStudioLight.entitlements */; };
 		0FC3EDCA1B06106B000283F0 /* ChessStudioLight.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0FC3EDC81B06106B000283F0 /* ChessStudioLight.entitlements */; };
+		0FC969511A5D347C00889FBD /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969261A5D347C00889FBD /* benchmark.cpp */; };
+		0FC969521A5D347C00889FBD /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969261A5D347C00889FBD /* benchmark.cpp */; };
+		0FC969531A5D347C00889FBD /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969271A5D347C00889FBD /* bitbase.cpp */; };
+		0FC969541A5D347C00889FBD /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969271A5D347C00889FBD /* bitbase.cpp */; };
+		0FC969551A5D347C00889FBD /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969281A5D347C00889FBD /* bitboard.cpp */; };
+		0FC969561A5D347C00889FBD /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969281A5D347C00889FBD /* bitboard.cpp */; };
+		0FC969571A5D347C00889FBD /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692B1A5D347C00889FBD /* book.cpp */; };
+		0FC969581A5D347C00889FBD /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692B1A5D347C00889FBD /* book.cpp */; };
+		0FC969591A5D347C00889FBD /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692D1A5D347C00889FBD /* endgame.cpp */; };
+		0FC9695A1A5D347C00889FBD /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692D1A5D347C00889FBD /* endgame.cpp */; };
+		0FC9695B1A5D347C00889FBD /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692F1A5D347C00889FBD /* evaluate.cpp */; };
+		0FC9695C1A5D347C00889FBD /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9692F1A5D347C00889FBD /* evaluate.cpp */; };
+		0FC9695D1A5D347C00889FBD /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969321A5D347C00889FBD /* iphone.mm */; };
+		0FC9695E1A5D347C00889FBD /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969321A5D347C00889FBD /* iphone.mm */; };
+		0FC9695F1A5D347C00889FBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969331A5D347C00889FBD /* main.cpp */; };
+		0FC969601A5D347C00889FBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969331A5D347C00889FBD /* main.cpp */; };
+		0FC969611A5D347C00889FBD /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969341A5D347C00889FBD /* material.cpp */; };
+		0FC969621A5D347C00889FBD /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969341A5D347C00889FBD /* material.cpp */; };
+		0FC969631A5D347C00889FBD /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969361A5D347C00889FBD /* misc.cpp */; };
+		0FC969641A5D347C00889FBD /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969361A5D347C00889FBD /* misc.cpp */; };
+		0FC969651A5D347C00889FBD /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969381A5D347C00889FBD /* movegen.cpp */; };
+		0FC969661A5D347C00889FBD /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969381A5D347C00889FBD /* movegen.cpp */; };
+		0FC969671A5D347C00889FBD /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693A1A5D347C00889FBD /* movepick.cpp */; };
+		0FC969681A5D347C00889FBD /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693A1A5D347C00889FBD /* movepick.cpp */; };
+		0FC969691A5D347C00889FBD /* notation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693C1A5D347C00889FBD /* notation.cpp */; };
+		0FC9696A1A5D347C00889FBD /* notation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693C1A5D347C00889FBD /* notation.cpp */; };
+		0FC9696B1A5D347C00889FBD /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693E1A5D347C00889FBD /* pawns.cpp */; };
+		0FC9696C1A5D347C00889FBD /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9693E1A5D347C00889FBD /* pawns.cpp */; };
+		0FC9696D1A5D347C00889FBD /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969411A5D347C00889FBD /* position.cpp */; };
+		0FC9696E1A5D347C00889FBD /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969411A5D347C00889FBD /* position.cpp */; };
+		0FC9696F1A5D347C00889FBD /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969451A5D347C00889FBD /* search.cpp */; };
+		0FC969701A5D347C00889FBD /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969451A5D347C00889FBD /* search.cpp */; };
+		0FC969711A5D347C00889FBD /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969471A5D347C00889FBD /* thread.cpp */; };
+		0FC969721A5D347C00889FBD /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969471A5D347C00889FBD /* thread.cpp */; };
+		0FC969731A5D347C00889FBD /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969491A5D347C00889FBD /* timeman.cpp */; };
+		0FC969741A5D347C00889FBD /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC969491A5D347C00889FBD /* timeman.cpp */; };
+		0FC969751A5D347C00889FBD /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694B1A5D347C00889FBD /* tt.cpp */; };
+		0FC969761A5D347C00889FBD /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694B1A5D347C00889FBD /* tt.cpp */; };
+		0FC969771A5D347C00889FBD /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694E1A5D347C00889FBD /* uci.cpp */; };
+		0FC969781A5D347C00889FBD /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694E1A5D347C00889FBD /* uci.cpp */; };
+		0FC969791A5D347C00889FBD /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694F1A5D347C00889FBD /* ucioption.cpp */; };
+		0FC9697A1A5D347C00889FBD /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9694F1A5D347C00889FBD /* ucioption.cpp */; };
 		0FD0301B1AA0A25900FE4097 /* HelpVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0301A1AA0A25900FE4097 /* HelpVideoViewController.m */; };
 		0FD0301C1AA0A25900FE4097 /* HelpVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0301A1AA0A25900FE4097 /* HelpVideoViewController.m */; };
 		0FD0301E1AA0A2F500FE4097 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD0301D1AA0A2F500FE4097 /* MediaPlayer.framework */; };
@@ -816,50 +858,6 @@
 		0FFCCC9C16F7241F000DDECF /* TwicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCCC9B16F7241F000DDECF /* TwicWebViewController.m */; };
 		0FFFCEEC1B57918F0030C6AD /* ControlNalimovView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFCEEB1B57918F0030C6AD /* ControlNalimovView.m */; };
 		0FFFCEED1B57918F0030C6AD /* ControlNalimovView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFCEEB1B57918F0030C6AD /* ControlNalimovView.m */; };
-		EF4E94AF1C8DC32200763619 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94851C8DC32200763619 /* benchmark.cpp */; };
-		EF4E94B01C8DC32200763619 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94851C8DC32200763619 /* benchmark.cpp */; };
-		EF4E94B11C8DC32200763619 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94861C8DC32200763619 /* bitbase.cpp */; };
-		EF4E94B21C8DC32200763619 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94861C8DC32200763619 /* bitbase.cpp */; };
-		EF4E94B31C8DC32200763619 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94871C8DC32200763619 /* bitboard.cpp */; };
-		EF4E94B41C8DC32200763619 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94871C8DC32200763619 /* bitboard.cpp */; };
-		EF4E94B51C8DC32200763619 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948A1C8DC32200763619 /* endgame.cpp */; };
-		EF4E94B61C8DC32200763619 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948A1C8DC32200763619 /* endgame.cpp */; };
-		EF4E94B71C8DC32200763619 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948C1C8DC32200763619 /* evaluate.cpp */; };
-		EF4E94B81C8DC32200763619 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948C1C8DC32200763619 /* evaluate.cpp */; };
-		EF4E94B91C8DC32200763619 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948E1C8DC32200763619 /* main.cpp */; };
-		EF4E94BA1C8DC32200763619 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948E1C8DC32200763619 /* main.cpp */; };
-		EF4E94BB1C8DC32200763619 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948F1C8DC32200763619 /* Makefile */; };
-		EF4E94BC1C8DC32200763619 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EF4E948F1C8DC32200763619 /* Makefile */; };
-		EF4E94BD1C8DC32200763619 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94901C8DC32200763619 /* material.cpp */; };
-		EF4E94BE1C8DC32200763619 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94901C8DC32200763619 /* material.cpp */; };
-		EF4E94BF1C8DC32200763619 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94921C8DC32200763619 /* misc.cpp */; };
-		EF4E94C01C8DC32200763619 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94921C8DC32200763619 /* misc.cpp */; };
-		EF4E94C11C8DC32200763619 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94941C8DC32200763619 /* movegen.cpp */; };
-		EF4E94C21C8DC32200763619 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94941C8DC32200763619 /* movegen.cpp */; };
-		EF4E94C31C8DC32200763619 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94961C8DC32200763619 /* movepick.cpp */; };
-		EF4E94C41C8DC32200763619 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94961C8DC32200763619 /* movepick.cpp */; };
-		EF4E94C51C8DC32200763619 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94981C8DC32200763619 /* pawns.cpp */; };
-		EF4E94C61C8DC32200763619 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94981C8DC32200763619 /* pawns.cpp */; };
-		EF4E94C71C8DC32200763619 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949A1C8DC32200763619 /* position.cpp */; };
-		EF4E94C81C8DC32200763619 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949A1C8DC32200763619 /* position.cpp */; };
-		EF4E94C91C8DC32200763619 /* psqt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949C1C8DC32200763619 /* psqt.cpp */; };
-		EF4E94CA1C8DC32200763619 /* psqt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949C1C8DC32200763619 /* psqt.cpp */; };
-		EF4E94CB1C8DC32200763619 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949D1C8DC32200763619 /* search.cpp */; };
-		EF4E94CC1C8DC32200763619 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E949D1C8DC32200763619 /* search.cpp */; };
-		EF4E94CF1C8DC32200763619 /* tbprobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A21C8DC32200763619 /* tbprobe.cpp */; };
-		EF4E94D01C8DC32200763619 /* tbprobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A21C8DC32200763619 /* tbprobe.cpp */; };
-		EF4E94D11C8DC32200763619 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A51C8DC32200763619 /* thread.cpp */; };
-		EF4E94D21C8DC32200763619 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A51C8DC32200763619 /* thread.cpp */; };
-		EF4E94D31C8DC32200763619 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A71C8DC32200763619 /* timeman.cpp */; };
-		EF4E94D41C8DC32200763619 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A71C8DC32200763619 /* timeman.cpp */; };
-		EF4E94D51C8DC32200763619 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A91C8DC32200763619 /* tt.cpp */; };
-		EF4E94D61C8DC32200763619 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94A91C8DC32200763619 /* tt.cpp */; };
-		EF4E94D71C8DC32200763619 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94AC1C8DC32200763619 /* uci.cpp */; };
-		EF4E94D81C8DC32200763619 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94AC1C8DC32200763619 /* uci.cpp */; };
-		EF4E94D91C8DC32200763619 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94AE1C8DC32200763619 /* ucioption.cpp */; };
-		EF4E94DA1C8DC32200763619 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94AE1C8DC32200763619 /* ucioption.cpp */; };
-		EF4E94DD1C8DC5A300763619 /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94DC1C8DC5A300763619 /* iphone.mm */; };
-		EF4E94DE1C8DC5A300763619 /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF4E94DC1C8DC5A300763619 /* iphone.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1407,6 +1405,49 @@
 		0FC3EDC31B05F7E5000283F0 /* MainCloudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCloudTableViewController.m; sourceTree = "<group>"; };
 		0FC3EDC61B060DAD000283F0 /* ChessStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChessStudio.entitlements; sourceTree = "<group>"; };
 		0FC3EDC81B06106B000283F0 /* ChessStudioLight.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ChessStudioLight.entitlements; sourceTree = "<group>"; };
+		0FC969261A5D347C00889FBD /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		0FC969271A5D347C00889FBD /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitbase.cpp; sourceTree = "<group>"; };
+		0FC969281A5D347C00889FBD /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitboard.cpp; sourceTree = "<group>"; };
+		0FC969291A5D347C00889FBD /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		0FC9692A1A5D347C00889FBD /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcount.h; sourceTree = "<group>"; };
+		0FC9692B1A5D347C00889FBD /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
+		0FC9692C1A5D347C00889FBD /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
+		0FC9692D1A5D347C00889FBD /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endgame.cpp; sourceTree = "<group>"; };
+		0FC9692E1A5D347C00889FBD /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endgame.h; sourceTree = "<group>"; };
+		0FC9692F1A5D347C00889FBD /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evaluate.cpp; sourceTree = "<group>"; };
+		0FC969301A5D347C00889FBD /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluate.h; sourceTree = "<group>"; };
+		0FC969311A5D347C00889FBD /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphone.h; sourceTree = "<group>"; };
+		0FC969321A5D347C00889FBD /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iphone.mm; sourceTree = "<group>"; };
+		0FC969331A5D347C00889FBD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0FC969341A5D347C00889FBD /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		0FC969351A5D347C00889FBD /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		0FC969361A5D347C00889FBD /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		0FC969371A5D347C00889FBD /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		0FC969381A5D347C00889FBD /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movegen.cpp; sourceTree = "<group>"; };
+		0FC969391A5D347C00889FBD /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		0FC9693A1A5D347C00889FBD /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movepick.cpp; sourceTree = "<group>"; };
+		0FC9693B1A5D347C00889FBD /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		0FC9693C1A5D347C00889FBD /* notation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notation.cpp; sourceTree = "<group>"; };
+		0FC9693D1A5D347C00889FBD /* notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notation.h; sourceTree = "<group>"; };
+		0FC9693E1A5D347C00889FBD /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pawns.cpp; sourceTree = "<group>"; };
+		0FC9693F1A5D347C00889FBD /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawns.h; sourceTree = "<group>"; };
+		0FC969401A5D347C00889FBD /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		0FC969411A5D347C00889FBD /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		0FC969421A5D347C00889FBD /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		0FC969431A5D347C00889FBD /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psqtab.h; sourceTree = "<group>"; };
+		0FC969441A5D347C00889FBD /* rkiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rkiss.h; sourceTree = "<group>"; };
+		0FC969451A5D347C00889FBD /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		0FC969461A5D347C00889FBD /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		0FC969471A5D347C00889FBD /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		0FC969481A5D347C00889FBD /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		0FC969491A5D347C00889FBD /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timeman.cpp; sourceTree = "<group>"; };
+		0FC9694A1A5D347C00889FBD /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeman.h; sourceTree = "<group>"; };
+		0FC9694B1A5D347C00889FBD /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt.cpp; sourceTree = "<group>"; };
+		0FC9694C1A5D347C00889FBD /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		0FC9694D1A5D347C00889FBD /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0FC9694E1A5D347C00889FBD /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uci.cpp; sourceTree = "<group>"; };
+		0FC9694F1A5D347C00889FBD /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ucioption.cpp; sourceTree = "<group>"; };
+		0FC969501A5D347C00889FBD /* ucioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucioption.h; sourceTree = "<group>"; };
 		0FD030191AA0A25900FE4097 /* HelpVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVideoViewController.h; sourceTree = "<group>"; };
 		0FD0301A1AA0A25900FE4097 /* HelpVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVideoViewController.m; sourceTree = "<group>"; };
 		0FD0301D1AA0A2F500FE4097 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -1471,48 +1512,6 @@
 		0FFCCC9B16F7241F000DDECF /* TwicWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwicWebViewController.m; path = TabBar/TwicWebViewController.m; sourceTree = "<group>"; };
 		0FFFCEEA1B57918F0030C6AD /* ControlNalimovView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlNalimovView.h; sourceTree = "<group>"; };
 		0FFFCEEB1B57918F0030C6AD /* ControlNalimovView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlNalimovView.m; sourceTree = "<group>"; };
-		EF4E94851C8DC32200763619 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cpp; path = "Stockfish 7/benchmark.cpp"; sourceTree = "<group>"; };
-		EF4E94861C8DC32200763619 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitbase.cpp; path = "Stockfish 7/bitbase.cpp"; sourceTree = "<group>"; };
-		EF4E94871C8DC32200763619 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitboard.cpp; path = "Stockfish 7/bitboard.cpp"; sourceTree = "<group>"; };
-		EF4E94881C8DC32200763619 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitboard.h; path = "Stockfish 7/bitboard.h"; sourceTree = "<group>"; };
-		EF4E94891C8DC32200763619 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitcount.h; path = "Stockfish 7/bitcount.h"; sourceTree = "<group>"; };
-		EF4E948A1C8DC32200763619 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = endgame.cpp; path = "Stockfish 7/endgame.cpp"; sourceTree = "<group>"; };
-		EF4E948B1C8DC32200763619 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endgame.h; path = "Stockfish 7/endgame.h"; sourceTree = "<group>"; };
-		EF4E948C1C8DC32200763619 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evaluate.cpp; path = "Stockfish 7/evaluate.cpp"; sourceTree = "<group>"; };
-		EF4E948D1C8DC32200763619 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evaluate.h; path = "Stockfish 7/evaluate.h"; sourceTree = "<group>"; };
-		EF4E948E1C8DC32200763619 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Stockfish 7/main.cpp"; sourceTree = "<group>"; };
-		EF4E948F1C8DC32200763619 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "Stockfish 7/Makefile"; sourceTree = "<group>"; };
-		EF4E94901C8DC32200763619 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = material.cpp; path = "Stockfish 7/material.cpp"; sourceTree = "<group>"; };
-		EF4E94911C8DC32200763619 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = material.h; path = "Stockfish 7/material.h"; sourceTree = "<group>"; };
-		EF4E94921C8DC32200763619 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = misc.cpp; path = "Stockfish 7/misc.cpp"; sourceTree = "<group>"; };
-		EF4E94931C8DC32200763619 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = "Stockfish 7/misc.h"; sourceTree = "<group>"; };
-		EF4E94941C8DC32200763619 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movegen.cpp; path = "Stockfish 7/movegen.cpp"; sourceTree = "<group>"; };
-		EF4E94951C8DC32200763619 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movegen.h; path = "Stockfish 7/movegen.h"; sourceTree = "<group>"; };
-		EF4E94961C8DC32200763619 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movepick.cpp; path = "Stockfish 7/movepick.cpp"; sourceTree = "<group>"; };
-		EF4E94971C8DC32200763619 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movepick.h; path = "Stockfish 7/movepick.h"; sourceTree = "<group>"; };
-		EF4E94981C8DC32200763619 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pawns.cpp; path = "Stockfish 7/pawns.cpp"; sourceTree = "<group>"; };
-		EF4E94991C8DC32200763619 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pawns.h; path = "Stockfish 7/pawns.h"; sourceTree = "<group>"; };
-		EF4E949A1C8DC32200763619 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = position.cpp; path = "Stockfish 7/position.cpp"; sourceTree = "<group>"; };
-		EF4E949B1C8DC32200763619 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = position.h; path = "Stockfish 7/position.h"; sourceTree = "<group>"; };
-		EF4E949C1C8DC32200763619 /* psqt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = psqt.cpp; path = "Stockfish 7/psqt.cpp"; sourceTree = "<group>"; };
-		EF4E949D1C8DC32200763619 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search.cpp; path = "Stockfish 7/search.cpp"; sourceTree = "<group>"; };
-		EF4E949E1C8DC32200763619 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = search.h; path = "Stockfish 7/search.h"; sourceTree = "<group>"; };
-		EF4E94A11C8DC32200763619 /* tbcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbcore.h; sourceTree = "<group>"; };
-		EF4E94A21C8DC32200763619 /* tbprobe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tbprobe.cpp; sourceTree = "<group>"; };
-		EF4E94A31C8DC32200763619 /* tbprobe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbprobe.h; sourceTree = "<group>"; };
-		EF4E94A41C8DC32200763619 /* thread_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread_win32.h; path = "Stockfish 7/thread_win32.h"; sourceTree = "<group>"; };
-		EF4E94A51C8DC32200763619 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thread.cpp; path = "Stockfish 7/thread.cpp"; sourceTree = "<group>"; };
-		EF4E94A61C8DC32200763619 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread.h; path = "Stockfish 7/thread.h"; sourceTree = "<group>"; };
-		EF4E94A71C8DC32200763619 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timeman.cpp; path = "Stockfish 7/timeman.cpp"; sourceTree = "<group>"; };
-		EF4E94A81C8DC32200763619 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timeman.h; path = "Stockfish 7/timeman.h"; sourceTree = "<group>"; };
-		EF4E94A91C8DC32200763619 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tt.cpp; path = "Stockfish 7/tt.cpp"; sourceTree = "<group>"; };
-		EF4E94AA1C8DC32200763619 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tt.h; path = "Stockfish 7/tt.h"; sourceTree = "<group>"; };
-		EF4E94AB1C8DC32200763619 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = "Stockfish 7/types.h"; sourceTree = "<group>"; };
-		EF4E94AC1C8DC32200763619 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uci.cpp; path = "Stockfish 7/uci.cpp"; sourceTree = "<group>"; };
-		EF4E94AD1C8DC32200763619 /* uci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uci.h; path = "Stockfish 7/uci.h"; sourceTree = "<group>"; };
-		EF4E94AE1C8DC32200763619 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucioption.cpp; path = "Stockfish 7/ucioption.cpp"; sourceTree = "<group>"; };
-		EF4E94DB1C8DC5A300763619 /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iphone.h; path = "Stockfish 7/iphone.h"; sourceTree = "<group>"; };
-		EF4E94DC1C8DC5A300763619 /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iphone.mm; path = "Stockfish 7/iphone.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1573,10 +1572,10 @@
 		0F12455E18435E59003A5DCA /* Stockfish */ = {
 			isa = PBXGroup;
 			children = (
-				EF4E94841C8DC31600763619 /* Stockfish 7 */,
 				0F8F0B7A189662FC00365522 /* Eco */,
 				0F70D3EB189272F800E35668 /* Images */,
 				0F948EC7188D5FAC00D987D2 /* Books */,
+				0F12456118435EC8003A5DCA /* Engine */,
 				0F12456018435EBB003A5DCA /* Controller */,
 				0F12455F18435EAB003A5DCA /* Chess */,
 			);
@@ -1655,6 +1654,56 @@
 				0F948ECC188D605800D987D2 /* OpeningBookManager.mm */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0F12456118435EC8003A5DCA /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				0FC969261A5D347C00889FBD /* benchmark.cpp */,
+				0FC969271A5D347C00889FBD /* bitbase.cpp */,
+				0FC969281A5D347C00889FBD /* bitboard.cpp */,
+				0FC969291A5D347C00889FBD /* bitboard.h */,
+				0FC9692A1A5D347C00889FBD /* bitcount.h */,
+				0FC9692B1A5D347C00889FBD /* book.cpp */,
+				0FC9692C1A5D347C00889FBD /* book.h */,
+				0FC9692D1A5D347C00889FBD /* endgame.cpp */,
+				0FC9692E1A5D347C00889FBD /* endgame.h */,
+				0FC9692F1A5D347C00889FBD /* evaluate.cpp */,
+				0FC969301A5D347C00889FBD /* evaluate.h */,
+				0FC969311A5D347C00889FBD /* iphone.h */,
+				0FC969321A5D347C00889FBD /* iphone.mm */,
+				0FC969331A5D347C00889FBD /* main.cpp */,
+				0FC969341A5D347C00889FBD /* material.cpp */,
+				0FC969351A5D347C00889FBD /* material.h */,
+				0FC969361A5D347C00889FBD /* misc.cpp */,
+				0FC969371A5D347C00889FBD /* misc.h */,
+				0FC969381A5D347C00889FBD /* movegen.cpp */,
+				0FC969391A5D347C00889FBD /* movegen.h */,
+				0FC9693A1A5D347C00889FBD /* movepick.cpp */,
+				0FC9693B1A5D347C00889FBD /* movepick.h */,
+				0FC9693C1A5D347C00889FBD /* notation.cpp */,
+				0FC9693D1A5D347C00889FBD /* notation.h */,
+				0FC9693E1A5D347C00889FBD /* pawns.cpp */,
+				0FC9693F1A5D347C00889FBD /* pawns.h */,
+				0FC969401A5D347C00889FBD /* platform.h */,
+				0FC969411A5D347C00889FBD /* position.cpp */,
+				0FC969421A5D347C00889FBD /* position.h */,
+				0FC969431A5D347C00889FBD /* psqtab.h */,
+				0FC969441A5D347C00889FBD /* rkiss.h */,
+				0FC969451A5D347C00889FBD /* search.cpp */,
+				0FC969461A5D347C00889FBD /* search.h */,
+				0FC969471A5D347C00889FBD /* thread.cpp */,
+				0FC969481A5D347C00889FBD /* thread.h */,
+				0FC969491A5D347C00889FBD /* timeman.cpp */,
+				0FC9694A1A5D347C00889FBD /* timeman.h */,
+				0FC9694B1A5D347C00889FBD /* tt.cpp */,
+				0FC9694C1A5D347C00889FBD /* tt.h */,
+				0FC9694D1A5D347C00889FBD /* types.h */,
+				0FC9694E1A5D347C00889FBD /* uci.cpp */,
+				0FC9694F1A5D347C00889FBD /* ucioption.cpp */,
+				0FC969501A5D347C00889FBD /* ucioption.h */,
+			);
+			path = Engine;
 			sourceTree = "<group>";
 		};
 		0F1714561BB970A800B89D5D /* Openings */ = {
@@ -2693,64 +2742,6 @@
 			path = SettingsBundleLight;
 			sourceTree = "<group>";
 		};
-		EF4E94841C8DC31600763619 /* Stockfish 7 */ = {
-			isa = PBXGroup;
-			children = (
-				EF4E94851C8DC32200763619 /* benchmark.cpp */,
-				EF4E94861C8DC32200763619 /* bitbase.cpp */,
-				EF4E94871C8DC32200763619 /* bitboard.cpp */,
-				EF4E94881C8DC32200763619 /* bitboard.h */,
-				EF4E94891C8DC32200763619 /* bitcount.h */,
-				EF4E948A1C8DC32200763619 /* endgame.cpp */,
-				EF4E948B1C8DC32200763619 /* endgame.h */,
-				EF4E948C1C8DC32200763619 /* evaluate.cpp */,
-				EF4E948D1C8DC32200763619 /* evaluate.h */,
-				EF4E948E1C8DC32200763619 /* main.cpp */,
-				EF4E948F1C8DC32200763619 /* Makefile */,
-				EF4E94901C8DC32200763619 /* material.cpp */,
-				EF4E94911C8DC32200763619 /* material.h */,
-				EF4E94921C8DC32200763619 /* misc.cpp */,
-				EF4E94931C8DC32200763619 /* misc.h */,
-				EF4E94941C8DC32200763619 /* movegen.cpp */,
-				EF4E94951C8DC32200763619 /* movegen.h */,
-				EF4E94961C8DC32200763619 /* movepick.cpp */,
-				EF4E94971C8DC32200763619 /* movepick.h */,
-				EF4E94981C8DC32200763619 /* pawns.cpp */,
-				EF4E94991C8DC32200763619 /* pawns.h */,
-				EF4E949A1C8DC32200763619 /* position.cpp */,
-				EF4E949B1C8DC32200763619 /* position.h */,
-				EF4E949C1C8DC32200763619 /* psqt.cpp */,
-				EF4E949D1C8DC32200763619 /* search.cpp */,
-				EF4E949E1C8DC32200763619 /* search.h */,
-				EF4E949F1C8DC32200763619 /* syzygy */,
-				EF4E94A41C8DC32200763619 /* thread_win32.h */,
-				EF4E94A51C8DC32200763619 /* thread.cpp */,
-				EF4E94A61C8DC32200763619 /* thread.h */,
-				EF4E94A71C8DC32200763619 /* timeman.cpp */,
-				EF4E94DB1C8DC5A300763619 /* iphone.h */,
-				EF4E94DC1C8DC5A300763619 /* iphone.mm */,
-				EF4E94A81C8DC32200763619 /* timeman.h */,
-				EF4E94A91C8DC32200763619 /* tt.cpp */,
-				EF4E94AA1C8DC32200763619 /* tt.h */,
-				EF4E94AB1C8DC32200763619 /* types.h */,
-				EF4E94AC1C8DC32200763619 /* uci.cpp */,
-				EF4E94AD1C8DC32200763619 /* uci.h */,
-				EF4E94AE1C8DC32200763619 /* ucioption.cpp */,
-			);
-			name = "Stockfish 7";
-			sourceTree = "<group>";
-		};
-		EF4E949F1C8DC32200763619 /* syzygy */ = {
-			isa = PBXGroup;
-			children = (
-				EF4E94A11C8DC32200763619 /* tbcore.h */,
-				EF4E94A21C8DC32200763619 /* tbprobe.cpp */,
-				EF4E94A31C8DC32200763619 /* tbprobe.h */,
-			);
-			name = syzygy;
-			path = "Stockfish 7/syzygy";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2808,7 +2799,6 @@
 						};
 					};
 					0F85EFA516527A31004A3D1A = {
-						DevelopmentTeam = MLQ27XKV79;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -3285,16 +3275,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4E94B81C8DC32200763619 /* evaluate.cpp in Sources */,
 				0F8F8AEE1A2C775F000391A6 /* HTMLNode.m in Sources */,
 				0F871A7F1B1EFF7E00372B7E /* CopyPgnDatabaseTableViewController.m in Sources */,
 				0F39E78E181ABDFF004C87CD /* main.m in Sources */,
 				0FEBEF941A39CBB0001D0F03 /* DropboxTableViewController.m in Sources */,
 				0F39E78F181ABDFF004C87CD /* AppDelegate.mm in Sources */,
+				0FC9696E1A5D347C00889FBD /* position.cpp in Sources */,
+				0FC969641A5D347C00889FBD /* misc.cpp in Sources */,
 				0F39E790181ABDFF004C87CD /* ioapi.c in Sources */,
-				EF4E94D41C8DC32200763619 /* timeman.cpp in Sources */,
 				0F11A0C21AC59648008433C6 /* NumberMoveViewController.m in Sources */,
 				0F39E791181ABDFF004C87CD /* mztools.c in Sources */,
+				0FC969701A5D347C00889FBD /* search.cpp in Sources */,
 				0F9B593318A0FF1E002EDE9E /* SettingsTableViewController.m in Sources */,
 				0F51A2FF1BBD56F900BA8417 /* MarqueeLabel.m in Sources */,
 				0F39E792181ABDFF004C87CD /* unzip.c in Sources */,
@@ -3303,35 +3294,38 @@
 				0F39E795181ABDFF004C87CD /* PgnFileInfo.m in Sources */,
 				0F39E796181ABDFF004C87CD /* PgnFileDocument.m in Sources */,
 				0F138D0E1A10BCA6000FB534 /* TBDatabaseMenuTableViewController.m in Sources */,
+				0FC969601A5D347C00889FBD /* main.cpp in Sources */,
 				0F39E797181ABDFF004C87CD /* PgnResultGamesTableViewController.m in Sources */,
 				0F8F8B021A2C775F000391A6 /* NSString+HTMLEntities.m in Sources */,
-				EF4E94C41C8DC32200763619 /* movepick.cpp in Sources */,
 				0F39E798181ABDFF004C87CD /* PgnResultGameByEventTableViewController.m in Sources */,
 				0F39E799181ABDFF004C87CD /* GamePreviewTableViewController.m in Sources */,
 				0F39E79A181ABDFF004C87CD /* EventTableViewController.m in Sources */,
 				0F2845C81BBBFE8900F18D94 /* EcoBoardPreviewTableViewController.mm in Sources */,
 				0FD6931F1A778119009FEFA5 /* RightSideViewController.m in Sources */,
-				EF4E94BC1C8DC32200763619 /* Makefile in Sources */,
 				0FD20A311A76423300F2FBA7 /* SWRevealViewController.m in Sources */,
 				0F39E79B181ABDFF004C87CD /* OpeningTableViewController.m in Sources */,
-				EF4E94B61C8DC32200763619 /* endgame.cpp in Sources */,
 				0F39E79C181ABDFF004C87CD /* EcoTableViewController.m in Sources */,
 				0F39E79D181ABDFF004C87CD /* SingleEcoTableViewController.m in Sources */,
+				0FC9695C1A5D347C00889FBD /* evaluate.cpp in Sources */,
 				0F39E79E181ABDFF004C87CD /* PlayerTableViewController.m in Sources */,
+				0FC969721A5D347C00889FBD /* thread.cpp in Sources */,
 				0F39E79F181ABDFF004C87CD /* GamesTableViewController.m in Sources */,
 				0F48DC811A602D8800FF1E62 /* ChessBoardViewController.m in Sources */,
+				0FC969521A5D347C00889FBD /* benchmark.cpp in Sources */,
 				0F70D3E618925BE500E35668 /* GameController.m in Sources */,
 				0F39E7A0181ABDFF004C87CD /* PlayerDetailTableViewController.m in Sources */,
 				0F39E7A1181ABDFF004C87CD /* MBProgressHUD.m in Sources */,
 				0F39E7A2181ABDFF004C87CD /* TBDatabaseTableViewController.m in Sources */,
 				0F93871B1929E38C0092FA2C /* GameSetting.m in Sources */,
 				0F39E7A3181ABDFF004C87CD /* TBTwicTableViewController.m in Sources */,
+				0FC9696C1A5D347C00889FBD /* pawns.cpp in Sources */,
 				0F39E7A4181ABDFF004C87CD /* PgnDbManager.m in Sources */,
 				0F8F8AE81A2C775F000391A6 /* HTMLDocumentType.m in Sources */,
 				0F39E7A5181ABDFF004C87CD /* PgnFileManager.m in Sources */,
 				0F8F8B151A2C7A3A000391A6 /* PgnMentorEventsTableViewController.m in Sources */,
 				0F39E7A7181ABDFF004C87CD /* PgnDownloadViewController.m in Sources */,
 				0F39E7A8181ABDFF004C87CD /* TwicWebViewController.m in Sources */,
+				0FC9696A1A5D347C00889FBD /* notation.cpp in Sources */,
 				0F39E7A9181ABDFF004C87CD /* TBPgnFileTableViewController.m in Sources */,
 				0F39E7AC181ABDFF004C87CD /* UtilToView.m in Sources */,
 				0F39E7AE181ABDFF004C87CD /* TBHelpTableViewController.m in Sources */,
@@ -3339,10 +3333,9 @@
 				0F39E7AF181ABDFF004C87CD /* PGNAnalyzer.m in Sources */,
 				0F39E7B0181ABDFF004C87CD /* PGNBoard.m in Sources */,
 				0F5E14701B036C4300C23060 /* NalimovBoardViewController.m in Sources */,
-				EF4E94B41C8DC32200763619 /* bitboard.cpp in Sources */,
-				EF4E94C61C8DC32200763619 /* pawns.cpp in Sources */,
 				0F39E7B1181ABDFF004C87CD /* PGNGame.m in Sources */,
 				0F39E7B2181ABDFF004C87CD /* PGNMove.m in Sources */,
+				0FC969561A5D347C00889FBD /* bitboard.cpp in Sources */,
 				0F39E7B3181ABDFF004C87CD /* PGNParser.m in Sources */,
 				0F39E7B4181ABDFF004C87CD /* PGNSquare.m in Sources */,
 				0F93C3CF18C7255C0012195B /* ManualOnlineViewController.m in Sources */,
@@ -3358,17 +3351,19 @@
 				0F39E7C2181ABDFF004C87CD /* PieceButton.m in Sources */,
 				0F70D3EA18925C0200E35668 /* GameParser.mm in Sources */,
 				0F9B593B18A0FF9E002EDE9E /* EngineNotationTableViewController.m in Sources */,
-				EF4E94C81C8DC32200763619 /* position.cpp in Sources */,
 				0F39E7C3181ABDFF004C87CD /* QueenButton.m in Sources */,
+				0FC969761A5D347C00889FBD /* tt.cpp in Sources */,
 				0F39E7C4181ABDFF004C87CD /* RookButton.m in Sources */,
 				0F96BB8818925A520055E9ED /* ChessClock.mm in Sources */,
 				0F39E7C6181ABDFF004C87CD /* DDFileReader.m in Sources */,
 				0F39E7C7181ABDFF004C87CD /* BoardView.m in Sources */,
 				0F948EC6188D5EF400D987D2 /* OpeningBook.mm in Sources */,
+				0FC969741A5D347C00889FBD /* timeman.cpp in Sources */,
+				0FC969621A5D347C00889FBD /* material.cpp in Sources */,
 				0F39E7C8181ABDFF004C87CD /* GameWebView.m in Sources */,
+				0FC969581A5D347C00889FBD /* book.cpp in Sources */,
 				0F39E7CA181ABDFF004C87CD /* BoardViewController.m in Sources */,
 				0F9B594318A0FFC9002EDE9E /* PlayStyleOptionTableViewController.m in Sources */,
-				EF4E94BE1C8DC32200763619 /* material.cpp in Sources */,
 				0F31AA5D1B21E570009EDF66 /* MoveFromCloudToPgnDatabaseTableViewController.m in Sources */,
 				0F8F8AFA1A2C775F000391A6 /* HTMLString.m in Sources */,
 				0F70D3E218925BB000E35668 /* ECO.mm in Sources */,
@@ -3384,37 +3379,37 @@
 				0F9387171929E2A00092FA2C /* ControllerTableViewController.m in Sources */,
 				0F39E7D8181ABDFF004C87CD /* SingleYearTableViewController.m in Sources */,
 				0F8F8AF61A2C775F000391A6 /* HTMLSelector.m in Sources */,
-				EF4E94DA1C8DC32200763619 /* ucioption.cpp in Sources */,
 				0F39E7D9181ABDFF004C87CD /* GameByYearsTableViewController.m in Sources */,
 				0F39E7DA181ABDFF004C87CD /* GamesByYearsByEventTableViewController.m in Sources */,
 				0F39E7DB181ABDFF004C87CD /* DatabaseForCopyTableViewController.m in Sources */,
 				0FE17A7F1ADBF3D0003B36B3 /* TapOnPieceTableViewController.m in Sources */,
-				EF4E94D21C8DC32200763619 /* thread.cpp in Sources */,
 				0F39E7DC181ABDFF004C87CD /* Reachability.m in Sources */,
 				0F96BB8C18925A830055E9ED /* ChessMove.mm in Sources */,
 				0F39E7DD181ABDFF004C87CD /* TagGamePreviewCell.m in Sources */,
 				0FBF60141A9F650500F8020F /* HelpVideoTableViewController.m in Sources */,
 				0F39E7DF181ABDFF004C87CD /* DateTagViewController.m in Sources */,
 				0F39E7E0181ABDFF004C87CD /* EcoTagViewController.m in Sources */,
+				0FC969541A5D347C00889FBD /* bitbase.cpp in Sources */,
 				0F39E7E1181ABDFF004C87CD /* GameInfoTableViewController.m in Sources */,
 				0FD7169D1A88DE9200920C69 /* BoardViewControllerMenuTableViewController.m in Sources */,
 				0F39E7E2181ABDFF004C87CD /* CopyDatabaseTableViewController.m in Sources */,
 				0F9B594718A12BBA002EDE9E /* PieceStyleTableViewController.m in Sources */,
 				0F39E7E3181ABDFF004C87CD /* DescriptionViewController.m in Sources */,
-				EF4E94DE1C8DC5A300763619 /* iphone.mm in Sources */,
 				0F39E7E4181ABDFF004C87CD /* SetupPositionView.m in Sources */,
 				0F39E7E5181ABDFF004C87CD /* SideToMoveViewController.m in Sources */,
 				0F8F8B111A2C7A3A000391A6 /* PgnMentorPlayersTableViewController.m in Sources */,
 				0F39E7E6181ABDFF004C87CD /* CastleSetupViewController.m in Sources */,
 				0F8F0BEC18A2535400B2D713 /* SettingManager.m in Sources */,
 				0FFFCEED1B57918F0030C6AD /* ControlNalimovView.m in Sources */,
+				0FC969681A5D347C00889FBD /* movepick.cpp in Sources */,
 				0F39E7E7181ABDFF004C87CD /* EnPassantSquareViewController.m in Sources */,
 				0F39E7E8181ABDFF004C87CD /* SetupPositionTableViewController.m in Sources */,
-				EF4E94D01C8DC32200763619 /* tbprobe.cpp in Sources */,
+				0FC969661A5D347C00889FBD /* movegen.cpp in Sources */,
 				0F39E7E9181ABDFF004C87CD /* FENParser.m in Sources */,
 				0F39E7EA181ABDFF004C87CD /* TextCommentViewController.m in Sources */,
 				0F8F25DA18A3A31000E1BCB6 /* CoordinateTableViewController.m in Sources */,
 				0F0240D11B4BDAF2003FCAD2 /* SelectionPieceView.m in Sources */,
+				0FC969781A5D347C00889FBD /* uci.cpp in Sources */,
 				0F39E7EB181ABDFF004C87CD /* PGNMoveAnnotation.m in Sources */,
 				0F810DC51831143000B07A74 /* PGNPastedGame.m in Sources */,
 				0F86B93A1834CD8500EB3400 /* PgnPastedGameViewController.m in Sources */,
@@ -3424,6 +3419,7 @@
 				0FD693231A7794F1009FEFA5 /* CustomAnimationController.m in Sources */,
 				0F88AC1E183CF0A800FEC747 /* PgnPastedGameTableViewController.m in Sources */,
 				0F88AC22183CF7B400FEC747 /* PgnPastedGameDetailViewController.m in Sources */,
+				0FC9697A1A5D347C00889FBD /* ucioption.cpp in Sources */,
 				0F8F8AEA1A2C775F000391A6 /* HTMLElement.m in Sources */,
 				0F8F8AEC1A2C775F000391A6 /* HTMLEntities.m in Sources */,
 				0F8F8B001A2C775F000391A6 /* HTMLTreeEnumerator.m in Sources */,
@@ -3432,21 +3428,20 @@
 				0F8F8AF21A2C775F000391A6 /* HTMLParser.m in Sources */,
 				0F8F8B071A2C7A1A000391A6 /* PgnMentorTableViewController.m in Sources */,
 				0F8F25DE18A3BFF900E1BCB6 /* MovesNotationTableViewController.m in Sources */,
-				EF4E94CA1C8DC32200763619 /* psqt.cpp in Sources */,
 				0F7DC8DC1A8E07A4000CB95E /* BoardViewPositionTableViewController.m in Sources */,
 				0F1245BE18435EF9003A5DCA /* EngineController.mm in Sources */,
 				0FAF52451A0CC372000A4E18 /* TBDatabaseCollectionViewController.m in Sources */,
 				0F70D3DA18925B1100E35668 /* AnimatedGameView.mm in Sources */,
 				0F1245C018435EF9003A5DCA /* Options.mm in Sources */,
+				0FC9695A1A5D347C00889FBD /* endgame.cpp in Sources */,
 				0F31AA591B21E3D9009EDF66 /* CopyFromCloudToPgnDatabaseTableViewController.m in Sources */,
-				EF4E94C01C8DC32200763619 /* misc.cpp in Sources */,
 				0F8F8B171A2C7A3A000391A6 /* PgnMentorSaveDatabaseTableViewController.m in Sources */,
-				EF4E94B01C8DC32200763619 /* benchmark.cpp in Sources */,
 				0F1245C218435EF9003A5DCA /* Queue.mm in Sources */,
 				0F1245E618435F17003A5DCA /* bitboard.cpp in Sources */,
 				0F1245E818435F17003A5DCA /* book.cpp in Sources */,
 				0FE2C4D21AA6EEC20081343C /* TextCommentPopoverViewController.m in Sources */,
 				0F1245EA18435F17003A5DCA /* color.cpp in Sources */,
+				0FC9695E1A5D347C00889FBD /* iphone.mm in Sources */,
 				0F1245EC18435F17003A5DCA /* direction.cpp in Sources */,
 				0F1245EE18435F17003A5DCA /* mersenne.cpp in Sources */,
 				0F1245F018435F17003A5DCA /* misc.cpp in Sources */,
@@ -3454,8 +3449,6 @@
 				0F1245F218435F17003A5DCA /* move.cpp in Sources */,
 				0F1245F418435F17003A5DCA /* movegen.cpp in Sources */,
 				0F8F8AE61A2C775F000391A6 /* HTMLDocument.m in Sources */,
-				EF4E94BA1C8DC32200763619 /* main.cpp in Sources */,
-				EF4E94D61C8DC32200763619 /* tt.cpp in Sources */,
 				0F1245F618435F17003A5DCA /* movepick.cpp in Sources */,
 				0FBF3E4C1B6231410034FDCD /* AboutNalimovViewController.m in Sources */,
 				0F1245F818435F17003A5DCA /* piece.cpp in Sources */,
@@ -3474,15 +3467,11 @@
 				0F83C32B1844D9010029F3D8 /* hash.c in Sources */,
 				0F83C32F1844D9110029F3D8 /* move.c in Sources */,
 				0FD030F91B2AE02B00147DD0 /* MovePgnDatabaseTableViewController.m in Sources */,
-				EF4E94D81C8DC32200763619 /* uci.cpp in Sources */,
 				0FD0301C1AA0A25900FE4097 /* HelpVideoViewController.m in Sources */,
-				EF4E94CC1C8DC32200763619 /* search.cpp in Sources */,
 				0F83C3391844DA6C0029F3D8 /* BookManager.m in Sources */,
 				0F70D3DE18925B6A00E35668 /* Game.mm in Sources */,
 				0F8377671845FE9200F56F4B /* EngineView.m in Sources */,
 				0F8F8AE41A2C775F000391A6 /* HTMLComment.m in Sources */,
-				EF4E94C21C8DC32200763619 /* movegen.cpp in Sources */,
-				EF4E94B21C8DC32200763619 /* bitbase.cpp in Sources */,
 				0F3C83E31A0B794A0026C773 /* TBDatabaseCollectionCell.m in Sources */,
 				0F96BB84189253130055E9ED /* PGN.mm in Sources */,
 			);
@@ -3492,16 +3481,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4E94B71C8DC32200763619 /* evaluate.cpp in Sources */,
 				0F8F8AED1A2C775F000391A6 /* HTMLNode.m in Sources */,
 				0F871A7E1B1EFF7E00372B7E /* CopyPgnDatabaseTableViewController.m in Sources */,
 				0F85EFB716527A31004A3D1A /* main.m in Sources */,
 				0FEBEF931A39CBB0001D0F03 /* DropboxTableViewController.m in Sources */,
 				0F85EFBB16527A31004A3D1A /* AppDelegate.mm in Sources */,
+				0FC9696D1A5D347C00889FBD /* position.cpp in Sources */,
+				0FC969631A5D347C00889FBD /* misc.cpp in Sources */,
 				0F82CED716AD56FC00A291FA /* ioapi.c in Sources */,
-				EF4E94D31C8DC32200763619 /* timeman.cpp in Sources */,
 				0F11A0C11AC59648008433C6 /* NumberMoveViewController.m in Sources */,
 				0F82CED816AD56FC00A291FA /* mztools.c in Sources */,
+				0FC9696F1A5D347C00889FBD /* search.cpp in Sources */,
 				0F9B593218A0FF1E002EDE9E /* SettingsTableViewController.m in Sources */,
 				0F51A2FE1BBD56F900BA8417 /* MarqueeLabel.m in Sources */,
 				0F82CED916AD56FC00A291FA /* unzip.c in Sources */,
@@ -3510,35 +3500,38 @@
 				0F8406B316C3AFF7000BC7E8 /* PgnFileInfo.m in Sources */,
 				0F8406B916C3D5A1000BC7E8 /* PgnFileDocument.m in Sources */,
 				0F138D0D1A10BCA6000FB534 /* TBDatabaseMenuTableViewController.m in Sources */,
+				0FC9695F1A5D347C00889FBD /* main.cpp in Sources */,
 				0F83BD9E16CCD8DC002F7E01 /* PgnResultGamesTableViewController.m in Sources */,
 				0F8F8B011A2C775F000391A6 /* NSString+HTMLEntities.m in Sources */,
-				EF4E94C31C8DC32200763619 /* movepick.cpp in Sources */,
 				0F83BDA116CD2168002F7E01 /* PgnResultGameByEventTableViewController.m in Sources */,
 				0F8497F116CE2584006512E3 /* GamePreviewTableViewController.m in Sources */,
 				0F8497F416CE55D2006512E3 /* EventTableViewController.m in Sources */,
 				0F2845C71BBBFE8900F18D94 /* EcoBoardPreviewTableViewController.mm in Sources */,
 				0FD6931E1A778119009FEFA5 /* RightSideViewController.m in Sources */,
-				EF4E94BB1C8DC32200763619 /* Makefile in Sources */,
 				0FD20A301A76423300F2FBA7 /* SWRevealViewController.m in Sources */,
 				0F8497F716CE65BF006512E3 /* OpeningTableViewController.m in Sources */,
-				EF4E94B51C8DC32200763619 /* endgame.cpp in Sources */,
 				0F8414A616D23096009A2556 /* EcoTableViewController.m in Sources */,
 				0F3D77F916D4CCC200DC4210 /* SingleEcoTableViewController.m in Sources */,
+				0FC9695B1A5D347C00889FBD /* evaluate.cpp in Sources */,
 				0F8388B816DB566E000F31EA /* PlayerTableViewController.m in Sources */,
+				0FC969711A5D347C00889FBD /* thread.cpp in Sources */,
 				0F8388BB16DBAC9E000F31EA /* GamesTableViewController.m in Sources */,
 				0F48DC801A602D8800FF1E62 /* ChessBoardViewController.m in Sources */,
+				0FC969511A5D347C00889FBD /* benchmark.cpp in Sources */,
 				0F70D3E518925BE500E35668 /* GameController.m in Sources */,
 				0F8EB4FC16E8C7470095C523 /* PlayerDetailTableViewController.m in Sources */,
 				0F85BB5616EE119300A17D2E /* MBProgressHUD.m in Sources */,
 				0F8F831F16EF6A4700F2965B /* TBDatabaseTableViewController.m in Sources */,
 				0F93871A1929E38C0092FA2C /* GameSetting.m in Sources */,
 				0F8F832316EF6BF600F2965B /* TBTwicTableViewController.m in Sources */,
+				0FC9696B1A5D347C00889FBD /* pawns.cpp in Sources */,
 				0F895DF516F0C32D001C2B2F /* PgnDbManager.m in Sources */,
 				0F8F8AE71A2C775F000391A6 /* HTMLDocumentType.m in Sources */,
 				0F844A5A16F1FA5C00D85B05 /* PgnFileManager.m in Sources */,
 				0F8F8B141A2C7A3A000391A6 /* PgnMentorEventsTableViewController.m in Sources */,
 				0F83387C16F366A800D42587 /* PgnDownloadViewController.m in Sources */,
 				0FFCCC9C16F7241F000DDECF /* TwicWebViewController.m in Sources */,
+				0FC969691A5D347C00889FBD /* notation.cpp in Sources */,
 				0F8C74E916FC8306009A7191 /* TBPgnFileTableViewController.m in Sources */,
 				0F7F671A172513B30016697A /* UtilToView.m in Sources */,
 				0F88E2301737A7E200ED685D /* TBHelpTableViewController.m in Sources */,
@@ -3546,10 +3539,9 @@
 				0F824DA9173A306E00956CE1 /* PGNAnalyzer.m in Sources */,
 				0F824DAA173A306E00956CE1 /* PGNBoard.m in Sources */,
 				0F5E146F1B036C4300C23060 /* NalimovBoardViewController.m in Sources */,
-				EF4E94B31C8DC32200763619 /* bitboard.cpp in Sources */,
-				EF4E94C51C8DC32200763619 /* pawns.cpp in Sources */,
 				0F824DAB173A306E00956CE1 /* PGNGame.m in Sources */,
 				0F824DAC173A306E00956CE1 /* PGNMove.m in Sources */,
+				0FC969551A5D347C00889FBD /* bitboard.cpp in Sources */,
 				0F824DAD173A306E00956CE1 /* PGNParser.m in Sources */,
 				0F824DAE173A306E00956CE1 /* PGNSquare.m in Sources */,
 				0F93C3CE18C7255C0012195B /* ManualOnlineViewController.m in Sources */,
@@ -3565,17 +3557,19 @@
 				0F824DDF173A31B000956CE1 /* PieceButton.m in Sources */,
 				0F70D3E918925C0200E35668 /* GameParser.mm in Sources */,
 				0F9B593A18A0FF9E002EDE9E /* EngineNotationTableViewController.m in Sources */,
-				EF4E94C71C8DC32200763619 /* position.cpp in Sources */,
 				0F824DE0173A31B000956CE1 /* QueenButton.m in Sources */,
+				0FC969751A5D347C00889FBD /* tt.cpp in Sources */,
 				0F824DE1173A31B000956CE1 /* RookButton.m in Sources */,
 				0F96BB8718925A520055E9ED /* ChessClock.mm in Sources */,
 				0F824DEF173A323500956CE1 /* DDFileReader.m in Sources */,
 				0F824DF5173A32D800956CE1 /* BoardView.m in Sources */,
 				0F948EC5188D5EF400D987D2 /* OpeningBook.mm in Sources */,
+				0FC969731A5D347C00889FBD /* timeman.cpp in Sources */,
+				0FC969611A5D347C00889FBD /* material.cpp in Sources */,
 				0F824DF6173A32D800956CE1 /* GameWebView.m in Sources */,
+				0FC969571A5D347C00889FBD /* book.cpp in Sources */,
 				0F824E0E173A33D500956CE1 /* BoardViewController.m in Sources */,
 				0F9B594218A0FFC9002EDE9E /* PlayStyleOptionTableViewController.m in Sources */,
-				EF4E94BD1C8DC32200763619 /* material.cpp in Sources */,
 				0F31AA5C1B21E570009EDF66 /* MoveFromCloudToPgnDatabaseTableViewController.m in Sources */,
 				0F8F8AF91A2C775F000391A6 /* HTMLString.m in Sources */,
 				0F70D3E118925BB000E35668 /* ECO.mm in Sources */,
@@ -3591,37 +3585,37 @@
 				0F9387161929E2A00092FA2C /* ControllerTableViewController.m in Sources */,
 				0F86FB451769AFB00012C793 /* SingleYearTableViewController.m in Sources */,
 				0F8F8AF51A2C775F000391A6 /* HTMLSelector.m in Sources */,
-				EF4E94D91C8DC32200763619 /* ucioption.cpp in Sources */,
 				0F86FB481769DC100012C793 /* GameByYearsTableViewController.m in Sources */,
 				0F86FB4B1769FA090012C793 /* GamesByYearsByEventTableViewController.m in Sources */,
 				0F8217941779C562004C681A /* DatabaseForCopyTableViewController.m in Sources */,
 				0FE17A7E1ADBF3D0003B36B3 /* TapOnPieceTableViewController.m in Sources */,
-				EF4E94D11C8DC32200763619 /* thread.cpp in Sources */,
 				0F869D71177C12DC001DD26B /* Reachability.m in Sources */,
 				0F96BB8B18925A830055E9ED /* ChessMove.mm in Sources */,
 				0F879990179692F600F0314D /* TagGamePreviewCell.m in Sources */,
 				0FBF60131A9F650500F8020F /* HelpVideoTableViewController.m in Sources */,
 				0F8799971796AE1600F0314D /* DateTagViewController.m in Sources */,
 				0F819DE217990F130081E4C1 /* EcoTagViewController.m in Sources */,
+				0FC969531A5D347C00889FBD /* bitbase.cpp in Sources */,
 				0F819DE517993F890081E4C1 /* GameInfoTableViewController.m in Sources */,
 				0FD7169C1A88DE9200920C69 /* BoardViewControllerMenuTableViewController.m in Sources */,
 				0F87D91717AB8C320083B0C4 /* CopyDatabaseTableViewController.m in Sources */,
 				0F9B594618A12BBA002EDE9E /* PieceStyleTableViewController.m in Sources */,
 				0F87DD4D17AFCB0A00F77595 /* DescriptionViewController.m in Sources */,
-				EF4E94DD1C8DC5A300763619 /* iphone.mm in Sources */,
 				0FACF8D817C4B48A00048261 /* SetupPositionView.m in Sources */,
 				0F816E4917C73690003AD256 /* SideToMoveViewController.m in Sources */,
 				0F8F8B101A2C7A3A000391A6 /* PgnMentorPlayersTableViewController.m in Sources */,
 				0F816E4C17C736D0003AD256 /* CastleSetupViewController.m in Sources */,
 				0F8F0BEB18A2535400B2D713 /* SettingManager.m in Sources */,
 				0FFFCEEC1B57918F0030C6AD /* ControlNalimovView.m in Sources */,
+				0FC969671A5D347C00889FBD /* movepick.cpp in Sources */,
 				0F816E4F17C736ED003AD256 /* EnPassantSquareViewController.m in Sources */,
 				0F86187517CDE0DE004FBBFF /* SetupPositionTableViewController.m in Sources */,
-				EF4E94CF1C8DC32200763619 /* tbprobe.cpp in Sources */,
+				0FC969651A5D347C00889FBD /* movegen.cpp in Sources */,
 				0F8701CC17DDB85A0048C7AC /* FENParser.m in Sources */,
 				0F83DE7A18068AFD0041259C /* TextCommentViewController.m in Sources */,
 				0F8F25D918A3A31000E1BCB6 /* CoordinateTableViewController.m in Sources */,
 				0F0240D01B4BDAF2003FCAD2 /* SelectionPieceView.m in Sources */,
+				0FC969771A5D347C00889FBD /* uci.cpp in Sources */,
 				0F87D58E1818049800E0A1DE /* PGNMoveAnnotation.m in Sources */,
 				0F810DC41831143000B07A74 /* PGNPastedGame.m in Sources */,
 				0F86B9391834CD8500EB3400 /* PgnPastedGameViewController.m in Sources */,
@@ -3631,6 +3625,7 @@
 				0FD693221A7794F1009FEFA5 /* CustomAnimationController.m in Sources */,
 				0F88AC1D183CF0A800FEC747 /* PgnPastedGameTableViewController.m in Sources */,
 				0F88AC21183CF7B400FEC747 /* PgnPastedGameDetailViewController.m in Sources */,
+				0FC969791A5D347C00889FBD /* ucioption.cpp in Sources */,
 				0F8F8AE91A2C775F000391A6 /* HTMLElement.m in Sources */,
 				0F8F8AEB1A2C775F000391A6 /* HTMLEntities.m in Sources */,
 				0F8F8AFF1A2C775F000391A6 /* HTMLTreeEnumerator.m in Sources */,
@@ -3639,21 +3634,20 @@
 				0F8F8AF11A2C775F000391A6 /* HTMLParser.m in Sources */,
 				0F8F8B061A2C7A1A000391A6 /* PgnMentorTableViewController.m in Sources */,
 				0F8F25DD18A3BFF900E1BCB6 /* MovesNotationTableViewController.m in Sources */,
-				EF4E94C91C8DC32200763619 /* psqt.cpp in Sources */,
 				0F7DC8DB1A8E07A4000CB95E /* BoardViewPositionTableViewController.m in Sources */,
 				0F1245BD18435EF9003A5DCA /* EngineController.mm in Sources */,
 				0FAF52441A0CC372000A4E18 /* TBDatabaseCollectionViewController.m in Sources */,
 				0F70D3D918925B1100E35668 /* AnimatedGameView.mm in Sources */,
 				0F1245BF18435EF9003A5DCA /* Options.mm in Sources */,
+				0FC969591A5D347C00889FBD /* endgame.cpp in Sources */,
 				0F31AA581B21E3D9009EDF66 /* CopyFromCloudToPgnDatabaseTableViewController.m in Sources */,
-				EF4E94BF1C8DC32200763619 /* misc.cpp in Sources */,
 				0F8F8B161A2C7A3A000391A6 /* PgnMentorSaveDatabaseTableViewController.m in Sources */,
-				EF4E94AF1C8DC32200763619 /* benchmark.cpp in Sources */,
 				0F1245C118435EF9003A5DCA /* Queue.mm in Sources */,
 				0F1245E518435F17003A5DCA /* bitboard.cpp in Sources */,
 				0F1245E718435F17003A5DCA /* book.cpp in Sources */,
 				0FE2C4D11AA6EEC20081343C /* TextCommentPopoverViewController.m in Sources */,
 				0F1245E918435F17003A5DCA /* color.cpp in Sources */,
+				0FC9695D1A5D347C00889FBD /* iphone.mm in Sources */,
 				0F1245EB18435F17003A5DCA /* direction.cpp in Sources */,
 				0F1245ED18435F17003A5DCA /* mersenne.cpp in Sources */,
 				0F1245EF18435F17003A5DCA /* misc.cpp in Sources */,
@@ -3661,8 +3655,6 @@
 				0F1245F118435F17003A5DCA /* move.cpp in Sources */,
 				0F1245F318435F17003A5DCA /* movegen.cpp in Sources */,
 				0F8F8AE51A2C775F000391A6 /* HTMLDocument.m in Sources */,
-				EF4E94B91C8DC32200763619 /* main.cpp in Sources */,
-				EF4E94D51C8DC32200763619 /* tt.cpp in Sources */,
 				0F1245F518435F17003A5DCA /* movepick.cpp in Sources */,
 				0FBF3E4B1B6231410034FDCD /* AboutNalimovViewController.m in Sources */,
 				0F1245F718435F17003A5DCA /* piece.cpp in Sources */,
@@ -3681,15 +3673,11 @@
 				0F83C32A1844D9010029F3D8 /* hash.c in Sources */,
 				0F83C32E1844D9110029F3D8 /* move.c in Sources */,
 				0FD030F81B2AE02B00147DD0 /* MovePgnDatabaseTableViewController.m in Sources */,
-				EF4E94D71C8DC32200763619 /* uci.cpp in Sources */,
 				0FD0301B1AA0A25900FE4097 /* HelpVideoViewController.m in Sources */,
-				EF4E94CB1C8DC32200763619 /* search.cpp in Sources */,
 				0F83C3381844DA6C0029F3D8 /* BookManager.m in Sources */,
 				0F70D3DD18925B6A00E35668 /* Game.mm in Sources */,
 				0F8377661845FE9200F56F4B /* EngineView.m in Sources */,
 				0F8F8AE31A2C775F000391A6 /* HTMLComment.m in Sources */,
-				EF4E94C11C8DC32200763619 /* movegen.cpp in Sources */,
-				EF4E94B11C8DC32200763619 /* bitbase.cpp in Sources */,
 				0F3C83E21A0B794A0026C773 /* TBDatabaseCollectionCell.m in Sources */,
 				0F96BB83189253130055E9ED /* PGN.mm in Sources */,
 			);
@@ -3844,7 +3832,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3855,7 +3843,7 @@
 				GCC_PREFIX_HEADER = "ChessStudio/ChessStudio-Prefix.pch";
 				INFOPLIST_FILE = "ChessStudio/ChessStudio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pippo.pluto.ChessStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.studio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3869,7 +3857,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3880,7 +3868,7 @@
 				GCC_PREFIX_HEADER = "ChessStudio/ChessStudio-Prefix.pch";
 				INFOPLIST_FILE = "ChessStudio/ChessStudio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pippo.pluto.ChessStudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.studio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

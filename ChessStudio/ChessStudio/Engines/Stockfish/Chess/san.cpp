@@ -26,96 +26,10 @@
 #include <iomanip>
 #include <string>
 #include <sstream>
-#include <vector>
 
 #include "movepick.h"
 #include "san.h"
 
-
-std::string createAnalysis(const std::string &fen,
-                           const std::vector<int> &types,
-                           const std::vector<std::pair<unsigned, unsigned> > &srcs,
-                           const std::vector<std::pair<unsigned, unsigned> > &dsts,
-                           const std::vector<int> &promotes,
-                           bool  shortenAnalysis)
-{
-    assert(srcs.size() && dsts.size() && types.size() && srcs.size() == dsts.size() && dsts.size() == types.size());
-    
-    using namespace Chess;
-    
-    std::vector<Move> line;
-    line.reserve(srcs.size());
-    
-    std::size_t j = 0;
-    
-    for (j = 0; j < srcs.size(); j++)
-    {
-        const Square src = make_square(static_cast<File>(srcs[j].first), static_cast<Rank>(srcs[j].second));
-        const Square dst = make_square(static_cast<File>(dsts[j].first), static_cast<Rank>(dsts[j].second));
-        
-        switch (types[j])
-        {
-            case 0: { line[j] = make_move(src, dst); break; }
-            case 1: { line[j] = make_castle_move(src, dst); break; }
-            case 2: { line[j] = make_ep_move(src, dst); break; }
-            case 3: { line[j] = make_promotion_move(src, dst, static_cast<Chess::PieceType>(promotes[j])); break; }
-        }
-    }
-    
-    Chess::Position p; p.from_fen(fen);
-    Chess::UndoInfo u;
-    std::stringstream s, ns;
-    std::string moveStr;
-    int length, maxLength;
-    
-    length = 0;
-    maxLength = INT32_MAX;
-    
-    // Defined in SFGame.mm
-    extern int __getMoveIndex__();
-    
-    int k = 0;
-    
-    for (int i = 0; i < j; i++, k++)
-    {
-        ns.str("");
-        
-        if (!shortenAnalysis)
-        {
-            if (p.side_to_move() == Chess::WHITE)
-            {
-                ns << ((__getMoveIndex__() / 2) + 1) + (k / 2) << ".";
-            }
-            else if (i == 0)
-            {
-                ns << ((__getMoveIndex__() / 2) + 1) + (k + 1) / 2 << "...";
-                k++;
-            }
-        }
-        
-        moveStr = Chess::move_to_san(p, (Chess::Move) line[i]);
-        length += moveStr.length() + 1;
-        s << ns.str() << moveStr << " ";
-        
-        if (line[i] == Chess::MOVE_NULL)
-        {
-            p.do_null_move(u);
-        }
-        else
-        {
-            p.do_move((Chess::Move) line[i], u);
-        }
-    }
-    
-    return s.str();
-}
-
-std::string sanMove(const std::string &fen, int move)
-{
-    Chess::Position p;
-    p.from_fen(fen);
-    return Chess::move_to_san(p, (Chess::Move) move);
-}
 
 ////
 //// Local definitions

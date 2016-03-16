@@ -109,7 +109,7 @@
 //////////////////////////////////////////
 
 - (void) visitaAlberoIndietro;
-- (int) visitaAlberoIndietroPerMotore;
+- (void) visitaAlberoIndietroPerMotore;
 - (NSString *) getMosseDopoVisitaAlberoIndietroPerMotore;
 - (NSUInteger) getNumeroMosse:(NSString *)pezzo;
 

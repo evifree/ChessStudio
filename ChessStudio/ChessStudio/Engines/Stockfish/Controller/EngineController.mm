@@ -78,12 +78,11 @@ EngineController *GlobalEngineController; // HACK
         engineIsThinking = NO;
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moveReceived:) name:@"EngineNotification" object:nil];
+        
     }
     GlobalEngineController = self;
     return self;
 }
-
-static BOOL hasInit = NO;
 
 - (void)startEngine:(id)anObject {
    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
@@ -91,12 +90,7 @@ static BOOL hasInit = NO;
    engineThreadIsRunning = YES;
    engineThreadShouldStop = NO;
 
-    if (!hasInit)
-    {
-        engine_init();
-    }
-    
-    hasInit = YES;
+   engine_init();
 
    //engine_uci_loop();
    while (!engineThreadShouldStop) {
@@ -282,22 +276,13 @@ static BOOL hasInit = NO;
    }
 }
 
-int __fuckingHackMoveCount__;
-
-int __getMoveIndex__()
-{
-    return __fuckingHackMoveCount__ - 1;
-}
-
-
-
 - (void) moveReceived:(NSNotification *)notification {
     NSDictionary *userInfo = notification.userInfo;
     PGNMove *move = [userInfo objectForKey:@"MOSSA"];
     //NSLog(@"MOSSA RICEVUTA con fen = %@", move.fen);
     
     [move resetEngineMoves];
-    __fuckingHackMoveCount__ = [move visitaAlberoIndietroPerMotore];
+    [move visitaAlberoIndietroPerMotore];
     //NSLog(@"%@", [move getMosseDopoVisitaAlberoIndietroPerMotore]);
     
     //NSString *engineString = [[@"position fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" stringByAppendingString:@" moves "] stringByAppendingString:[move getMosseDopoVisitaAlberoIndietroPerMotore]];

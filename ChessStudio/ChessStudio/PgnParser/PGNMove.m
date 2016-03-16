@@ -1480,11 +1480,11 @@ static BOOL fenTrovatoUguale;
     }
 }
 
-- (int) visitaAlberoIndietroPerMotore {
+- (void) visitaAlberoIndietroPerMotore {
     if (_fullMove) {
         
         if (_fromSquare == 0 && _toSquare == 0) {
-            return 0;
+            return;
         }
         
         int colonnaP = [self getColumnFromSquare:_fromSquare];
@@ -1507,14 +1507,9 @@ static BOOL fenTrovatoUguale;
         [engineMovesArray insertString:m atIndex:0];
         [engineMovesArray insertString:@" " atIndex:0];
     }
-    
-    int n = 1;
-    
     if (_prevMove) {
-        n += [_prevMove visitaAlberoIndietroPerMotore];
+        [_prevMove visitaAlberoIndietroPerMotore];
     }
-    
-    return n;
 }
 
 - (NSString *) getMosseDopoVisitaAlberoIndietroPerMotore {
