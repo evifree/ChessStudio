@@ -36,9 +36,9 @@
 #include "uci.h"
 #include "syzygy/tbprobe.h"
 
-
+extern std::string sanMove(const std::string &fen, int move);
 extern void searchstats_to_ui(int64_t nodes, long time);
-extern void getFuckingMoveCount(int moveCount, int movenum, int depth);
+extern void getFuckingMoveCount(const std::string &move, int moveCount, int movenum, int depth);
 extern void pv_to_ui2(const std::string &pv);
 extern void currmove_to_ui(const std::string currmove, int currmovenum, int movenum, int depth);
 
@@ -901,13 +901,13 @@ moves_loop: // When in check search starts from here
 
       ss->moveCount = ++moveCount;
 
-      if (RootNode && thisThread == Threads.main() && Time.elapsed() > 3000)
+      if (RootNode && thisThread == Threads.main() && Time.elapsed() > 100)
       {
           sync_cout << "info depth " << depth / ONE_PLY
                     << " currmove " << UCI::move(move, pos.is_chess960())
                     << " currmovenumber " << moveCount + thisThread->PVIdx << sync_endl;
-          
-          getFuckingMoveCount((int)moveCount, thisThread->rootMoves.size(), int(depth / ONE_PLY));
+
+          getFuckingMoveCount(sanMove(pos.fen(), move), (int)moveCount, thisThread->rootMoves.size(), int(depth / ONE_PLY));
           //currmove_to_ui(move_to_san(pos, move), (int)moveCount + (int)PVIdx, (int)RootMoves.size(), int(depth / ONE_PLY));
       }
 

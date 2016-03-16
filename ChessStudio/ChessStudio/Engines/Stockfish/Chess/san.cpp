@@ -110,6 +110,12 @@ std::string createAnalysis(const std::string &fen,
     return s.str();
 }
 
+std::string sanMove(const std::string &fen, int move)
+{
+    Chess::Position p;
+    p.from_fen(fen);
+    return Chess::move_to_san(p, (Chess::Move) move);
+}
 
 ////
 //// Local definitions

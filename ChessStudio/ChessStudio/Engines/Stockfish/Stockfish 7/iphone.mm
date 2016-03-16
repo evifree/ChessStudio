@@ -196,8 +196,9 @@ void pv_to_ui2(const string &pv) {
 }
 
 
-void getFuckingMoveCount(int moveCount, int movenum, int depth)
+void getFuckingMoveCount(const std::string &move, int moveCount, int movenum, int depth)
 {
+    CurrentMove = move;
     CurrentMoveNumber = moveCount;
     CurrentDepth = depth;
     TotalMoveCount = movenum;
@@ -232,8 +233,8 @@ static const string time_string(int millisecs) {
     return s.str();
 }
 
-void searchstats_to_ui(int64_t nodes, long time) {
-    
+void searchstats_to_ui(int64_t nodes, long time)
+{
     std::stringstream s;
     s << " " << time_string((int)time) << "  " << CurrentDepth
     << "  " << CurrentMove
