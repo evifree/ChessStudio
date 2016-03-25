@@ -92,8 +92,6 @@
 	</array>
 	<key>UIFileSharingEnabled</key>
 	<true/>
-	<key>UILaunchStoryboardName</key>
-	<string>Launch ScreenCS</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainSWReveal</string>
 	<key>UIMainStoryboardFile~ipad</key>
