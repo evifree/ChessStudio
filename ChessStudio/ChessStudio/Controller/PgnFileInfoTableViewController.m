@@ -896,7 +896,6 @@
         //[ecoClassificator setPgnFileDoc:_pgnFileDoc];
         
         for (int n = 0; n<=numPassi; n++) {
-            int min = n*100;
             int max = n*100 + 99;
             
             if (n == numPassi) {
@@ -950,8 +949,6 @@
         }
         
         __block NSArray *foundGames;
-        //NSString *fen = @"rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6";
-        NSString *fen = @"r1b1k2r/1pqnbppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R w kq - 5 10";
 
         //EcoClassificator *ecoClassificator = [[EcoClassificator alloc] init];
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
