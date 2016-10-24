@@ -8,7 +8,7 @@
 
 #import "HelpVideoTableViewController.h"
 #import "SWRevealViewController.h"
-#import "HelpVideoViewController.h"
+//#import "HelpVideoViewController.h"
 
 @interface HelpVideoTableViewController () {
     
@@ -361,8 +361,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
     NSDictionary *dict = [listVideosDevice objectAtIndex:[self.tableView indexPathForSelectedRow].row];
-    HelpVideoViewController *hvvc = [segue destinationViewController];
-    [hvvc setVideoDictionary:dict];
+
+//    HelpVideoViewController *hvvc = [segue destinationViewController];
+//    [hvvc setVideoDictionary:dict];
+    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
